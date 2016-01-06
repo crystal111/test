@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+       input[type='text']{
+           border:none;
+           outline: none;
+       }
+        input[type="button"]{
+            border:none;
+            width: 100px;
+            height: 30px;
+            line-height: 30px;
+            color: #fff;
+            text-align: center;
+            background: green;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<form method="get" action="index.jsp">
+姓名:<input type="text" name="xm" value=""><br>
+性别:<input type="radio" name="sex" checked>男
+<input type="radio" name="sex">女<br>
+兴趣爱好:<input type="checkbox" name="hobby"/>睡觉
+<input type="checkbox" name="hobby" checked/>吃饭
+<input type="checkbox" name="hobby"/>打豆豆<br>
+区域:
+    <select name="address" id="">
+        <option value="0">上海</option>
+        <option value="1" selected>北京</option>
+        <option value="2">江苏</option>
+        <option value="3">河北</option>
+    </select><br>
+反馈意见: <textarea name="area"  cols="20" rows="10"></textarea><br>
+
+    <button>登陆</button>
+    <input  type="button" value="登陆">
+    <input type ='reset' value="重置">
+    <input type="submit" value="提交">
+
+
+</form>
+</body>
+</html>

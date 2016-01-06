@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script type="text/javascript">
+    var str="2016-1-4 23:58:58";
+    var ary=str.split(" ");
+    var leftAry=ary[0].split("-");
+    var rightAry=ary[1].split(":");
+    var time=leftAry[0]+"年"+addZero(leftAry[1])+"月" +addZero(leftAry[2])+"日"
+    +addZero(rightAry[0])+"时"+addZero(rightAry[1])+"分"+addZero(rightAry[2])+"秒";
+     console.log(time);
+
+
+    function addZero(value){
+       /* if(value<10){
+            value="10"+value;
+        }
+        return value;*/
+        return value<10?"0"+value:value;
+    }
+</script>
+</body>
+</html>

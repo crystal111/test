@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            width: 200px;
+            border:1px solid #ccc;
+        }
+        p{
+            margin: 0;
+        }
+        ul li{
+            height: 60px;
+            line-height: 60px;
+            text-align: center;
+            color: red;
+            position: relative;/*设置参照物*/
+            border:1px solid #fff;
+        }
+        ul li:hover{
+            border:1px solid red;
+        }
+        ul li:hover span{
+            display: block;
+            width: 0;
+            height: 0;
+            border-width: 10px;
+            border-style: solid;
+            position: absolute;
+            top:20px;
+
+        }
+        ul li:hover span.left{
+            border-color: transparent transparent transparent red;
+            left:20px
+        }
+        ul li:hover span.right{
+            border-color: transparent red transparent transparent;
+            right: 20px;
+        }
+        ul li p{
+            display: none;/*隐藏*/
+        }
+        ul li:hover p{
+            display: block;/*显示*/
+            width: 110px;
+            height: auto;
+            line-height: 20px;
+            font-size: 12px;
+            color: #fff;
+            background: #999999;
+            padding: 10px;
+            position: absolute;
+            top:0;
+            right: -150px;
+        }
+        /*继承性的属性
+        text-indent
+        letter-spacing
+        list-style
+        text-align
+        text-transform
+        没有继承性的
+        width
+        height
+        padding
+        margin
+        border
+        position
+        float
+        display
+        隐形的继承,width,height如果值是auto,会继承父标签的宽度或高度
+        */
+    </style>
+</head>
+<body>
+<ul>
+    <li><span class="left"></span>首页<span class="right"></span><p>这里是什么菜单1这里是什么菜单1这里是什么菜单1</p></li>
+    <li><span class="left"></span>特色培训<span class="right"></span><p>这里是什么菜单2这里是什么菜单2</p></li>
+    <li><span class="left"></span>热点课程<span class="right"></span><p>这里是什么菜单3这里是什么菜单2</p></li>
+    <li><span class="left"></span>网站开发课程<span class="right"></span><p>这里是什么菜单4这里是什么菜单2</p></li>
+    <li><span class="left"></span>联系我们<span class="right"></span><p>这里是什么菜单5这里是什么菜单2这里是什么菜单2这里是什么菜单2</p></li>
+</ul>
+</body>
+</html>

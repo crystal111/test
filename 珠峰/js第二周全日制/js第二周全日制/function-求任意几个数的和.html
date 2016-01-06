@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+    <!--需求:求任意几个数的和-->
+    <script>
+        function sum (){
+            var total = null;
+            for(var i = 0;i<arguments.length;i++){
+                total+=arguments[i];//total = total+arguments[i];
+                //i = 0-->total = total+arguments[0]=null+10=Number(null)+10=10;
+                //i = 1 -->total =total+arguments[1]=10+20=30
+            }
+            return total;
+
+        }
+       // sum(5);
+       var total =  sum(10,20,50);
+        console.log(total);
+       // sum(20,10,5,30);
+    </script>
+</body>
+</html>

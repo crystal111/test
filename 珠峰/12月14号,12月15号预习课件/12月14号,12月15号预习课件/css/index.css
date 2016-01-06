@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+body{
+    font-family: "Microsoft Yahei";
+    background: #f7f7f7;
+}
+.top{
+    background: #000;
+    height: 35px;
+    float: left;
+    width: 100%;
+}
+.topLeft{
+    width: 500px;
+    float: left;
+}
+.topRight{
+    width: 300px;
+    float:right;
+    color: #fff;
+}
+.topList{
+    padding-top: 2px;
+    height: 33px;
+    line-height: 33px;
+}
+.topList li.topNav,.topList li.topNavOther{
+    color: #fff;
+    padding: 0 10px;
+    float: left;
+    font-size: 12px;
+}
+.topList li.topNav{
+    position: relative;
+}
+.topList li.topNav  span{
+    float: left;
+}
+.topList li.topNav i{
+    float: left;
+    width: 0;
+    height: 0;
+    border:5px solid #fff;
+    border-color: #fff transparent transparent transparent;
+    margin-top: 15px;
+    margin-left: 3px;
+}
+.topList li.topNav:hover{
+    background: #fff;
+    color: #000;
+}
+.topList li:hover i{
+    border-color: #000 transparent transparent transparent;
+}
+.topList li:hover ul{
+    display: block;
+}
+
+.topList li ul{
+    width: 108px;
+    padding: 10px;
+    background: #fff;
+    position: absolute;
+    top:33px;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+.topList li ul li{
+    padding: 1px 0 2px 0;
+    border-bottom:1px solid #e7e7e7;
+}
+.topList li ul li a{
+    display: block;
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+    background:url(../images/360icon.png)  no-repeat;
+}
+.topList li ul li a.a1{
+    background-position:  5px 9px;
+}
+.topList li ul li a.a2{
+    background-position:  5px -35px;
+}
+.topList li ul li a.a3{
+    background-position:  5px -76px;
+}
+.topList li ul li a.a4{
+    background-position:  5px -120px;
+}
+.topList li ul li a:hover{
+    background-color: #f7f7f7;
+}
+
+
+

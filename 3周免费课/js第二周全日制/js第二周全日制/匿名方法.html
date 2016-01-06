@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<!--
+匿名方法(没有函数名的方法就叫匿名方法),匿名方法的运行,函数表达式
+function (){}
+
+-->
+<div id="div1">请点击我!</div>
+<script>
+    //预解释
+    function sum(){
+
+    }
+    sum();
+
+    var sum  = function(){
+        console.log("aaa");
+    }  //函数表达式
+    sum();
+
+    function fn (n){
+        //alert("我在这儿呢~~");
+        alert(n);
+    }
+    var oDiv  = document.getElementById("div1");
+//    oDiv.onclick = function(){
+//        alert("我在这儿呢~~");
+//    }
+       //oDiv.onclick = fn;
+
+    oDiv.onclick = function(){
+        fn(1)
+    };
+
+//onclick 表示点击事件,需要是方法的本身,并不是方法运行的结果
+    //onclick  当.....时候...表示做计划
+    //方法的本身表示做计划
+    //方法的运行表示执行计划
+
+//    function 计划(){
+//        明天8点起床
+//        明天9点去公司
+//        明天10点下班
+//    }
+//
+//    小李.on8点 = 起床
+//    小李.on9点 = 去公司
+
+</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script type="text/javascript ">
+    function sum() {
+        var total = null;
+        var n1 = arguments[0];
+        var n2 = arguments[1];
+
+        if (arguments.length == 2) {
+            total = n1 + n2;
+        } else if (arguments.length==1) {
+            total = n1;
+        }
+        return total;
+    }
+    var a = sum(10, 1000);
+    console.log(a);
+
+</script>
+
+</body>
+</html>

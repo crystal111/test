@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        ul, li {
+            list-style: none;
+        }
+
+        #tab {
+            margin: 10px auto;
+            width: 740px;
+        }
+
+        #tab ul {
+            position: relative;
+            top: 1px;
+        }
+
+        #tab ul li {
+            width: 5px;
+            height: 5px;
+            text-align: center;
+            border: 1px solid burlywood;
+            cursor: pointer;
+            border-radius: 100%;
+            position: relative;
+            top: 149px;
+            left: 467px;
+            background-color: white;
+            display: inline-block;
+        }
+
+        #tab ul li.select {
+            background: black;
+        }
+
+        #tab div {
+            display: none;
+            height: 170px;
+            text-align: center;
+            font-size: 28px;
+            border: 1px solid white;
+        }
+
+        #tab div.select {
+            display: block;
+            margin-top: -39px;
+        }
+
+    </style>
+</head>
+<body>
+<div id="tab">
+    <ul>
+        <li class="select"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <div class="select"><img src="14505773382040.jpg"/></div>
+    <div><img src="14508359474454.jpg" /></div>
+    <div><img src="14509229942266.jpg"/></div>
+    <div><img src="14510095145460.png" /></div>
+    <div><img src="14510095576279.jpg" /></div>
+</div>
+</body>
+</html>
+<script type="text/javascript">
+    var oTab = document.getElementById("tab");
+    var oLis = oTab.getElementsByTagName("li");
+    var oDivs = oTab.getElementsByTagName("div");
+    function haha(a) {
+        for (var i = 0; i < oLis.length; i++) {
+            oLis[i].className = null;
+            oDivs[i].className = null;
+        }
+        oLis[a].className = "select";
+        oDivs[a].className = "select";
+    }
+
+    for (var i = 0; i < oLis.length; i++) {
+        oLis[i].apple = i;
+        oLis[i].onclick = function () {
+            haha(this.apple);
+        }
+    }
+    ;
+
+</script>

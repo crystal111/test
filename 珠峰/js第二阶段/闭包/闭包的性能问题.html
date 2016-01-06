@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<ul id="uli">
+    <li>1111</li>
+    <li>2222</li>
+    <li>3333</li>
+    <li>4444</li>
+    <li>5555</li>
+</ul>
+</body>
+</html>
+<script type="text/javascript">
+    (function (){
+        var uli=document.getElementById("uli");
+        var lis=uli.getElementsByTagName("li");
+        for(var i=0;i<lis.length;i++){
+            (function (i){
+            lis[i].onclick=function (){
+            alert(i);
+            }
+            })(i)
+        }
+    })();
+    var uli=null;
+</script>

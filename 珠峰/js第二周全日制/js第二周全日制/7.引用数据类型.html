@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <!--
+        1.对象类型的意义和定义
+        2.对象数据类型的操作 :  增,删,改,查
+        3.严格的对象类型:json
+
+    -->
+    <script>
+       // var o = {}//字面量的方式(对象直接量)
+        //var o = new Object()//创建实例的方式
+        var obj = {"name":"lily",age:18,gender:true,"width":"100px",fn:function(){},ele:document.documentElement,0:"aaa",1:"bcd"}
+       //增
+        obj.height="200px";
+        obj["height"] = "200px";
+       //改
+        obj.name = "小林";
+        obj["name"] ="小林";
+       //查
+        console.log(obj.age);
+        console.log(obj["age"]);
+        //删
+        delete obj.gender
+        console.log(obj);
+
+        //如何判断一个属性是否在一个对象里
+        //in运算符去判断这个属性是否在这个对象里
+
+        console.log("name" in obj);//true
+        //注意点:
+        //1.js当中不可以以数字作为变量名,但是可以把数字作为属性名
+        //2.如果属性名是字符串,以[]方式去获取的时候,一定要写双引号或者单引号,但是如果是数字的话,单引号或是双引号可以不写,一般情况是我们属性名不以数字命名
+
+    </script>
+</body>
+</html>

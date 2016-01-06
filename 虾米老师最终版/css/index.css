@@ -1,0 +1,293 @@
+body{
+    font-family: "Microsoft Yahei";
+    background: #f5f5f5;
+}
+.headerLayout{
+    width: 100%;
+    height: 60px;
+    background: url(../images/top_bg.jpg) repeat-x;
+}
+.header{
+    width: 1100px;
+    margin: 0 auto;
+}
+.header a,.header ul,.header div{
+    float: left;
+}
+.logo{
+    width:200px;
+    height: 60px;
+    background: url(../images/default.png) no-repeat;
+}
+.logo:hover{
+    background-position: 0 -60px;
+}
+.fMusic,.myMusic{
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    padding: 0 10px;
+    height: 60px;
+    line-height: 60px;
+}
+.fMusic{
+    background: url(../images/bj.jpg) repeat-x;
+}
+.list{
+    border:1px solid #db6b16;
+    background:#fa871a;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 5px;
+    margin: 14px 20px 0 15px;
+}
+.list li{
+    width: 60px;
+    border-right: 1px solid #db6b16;
+    font-size: 12px;
+    float: left;
+    text-align: center;
+}
+.list li a{
+    display: block;
+    color: #fff;
+    width: 60px;
+}
+.list li.last{
+    border-right: none;
+}
+.list li a:hover{
+    background: #dd6701;
+}
+.search{
+    width: 240px;
+    height: 28px;
+    border:1px solid #db6b16;
+    border-radius: 5px;
+    position: relative;
+    background: #fff;
+    margin-top: 14px;
+}
+.search a{
+    display: block;
+    width: 14px;
+    height: 15px;
+    background: url(../images/fangda.jpg) no-repeat;
+    position: absolute;
+    left:8px;
+    top:8px;
+}
+.search input{
+    border:0;
+    width: 200px;
+    height: 28px;
+    line-height: 28px;
+    margin-left: 30px;
+    font-size: 14px;
+    outline: none;
+ }
+.signout,.login a{
+    padding: 0 8px;
+    background: #cb681c;
+    font-size: 12px;
+    color: #fff;
+    height: 28px;
+    line-height: 28px;
+
+}
+.signout,.login{
+    border:1px solid #db6b16 ;
+    border-radius: 5px;
+    margin-top: 14px;
+}
+.signout{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.login a{
+    border-right:1px solid #db6b16;
+}
+.login .sina{
+    width: 16px;
+    background:#cb681c url(../images/header_thirdparty_icon.png) no-repeat -19px 3px;
+}
+.login .qq{
+    width: 16px;
+    background: #cb681c url(../images/header_thirdparty_icon.png) no-repeat 5px 3px;
+    border-right:0;
+}
+
+/*主体部分*/
+.main{
+    width: 1100px;
+    margin: 0 auto;
+}
+.left{
+    float: left;
+    width: 750px;
+    border:1px solid #ccc;
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+}
+.right{
+    float: right;
+    width: 300px;
+    border:1px solid #ccc;
+    background: #fff;
+}
+.info{
+    float: left;
+    width: 140px;
+    position: relative;
+    margin: 0 10px;
+}
+.pic{
+    height: 140px;
+    position: relative;
+}
+.text{
+    height: 23px;
+    line-height: 23px;
+    background: #f5f5f5;
+    font-size: 12px;
+    text-align: center;
+}
+.t-coin{
+    position: absolute;
+    left:3px;
+    top:3px;
+    z-index: 2;
+    display: none;
+}
+.r-coin{
+    width: 24px;
+    height: 24px;
+    background: url(../images/bofanganniu.png) no-repeat;
+    position: absolute;
+    right: 3px;
+    bottom:3px;
+    z-index: 2;
+    display: none;
+}
+.cover{
+    width: 140px;
+    height: 140px;
+    background: #000;
+    opacity: 0.6;
+    filter:alpha(opacity=60);
+    position: absolute;
+    left:0;
+    top:0;
+    display: none;
+}
+.r-coin:hover{
+    background: url(../images/bofanganniu1.png) no-repeat;
+}
+
+.t-coin ul{
+    width: 88px;
+    height: 93px;
+    background: #fff;
+    border-radius: 5px;
+    position: absolute;
+    left:0;
+    top:0;
+    padding: 10px 0;
+    display: none;
+}
+.t-coin ul li{
+    height: 23px;
+    line-height: 23px;
+    font-size: 14px;
+    text-align: center;
+}
+.t-coin ul li:hover{
+    background: #fa871a;
+    color: #fff;
+}
+.t-coin:hover ul{
+    display: block;
+}
+.pic:hover .t-coin,.pic:hover .r-coin,.pic:hover .cover{
+    display: block;
+}
+.textCover {
+    width: 140px;
+    height: 165px;
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    left:0;
+    top:0;
+    display: none;
+}
+.text:hover{
+    color:#f5f5f5 ;
+}
+.text:hover .textCover{
+    display: block;
+}
+/*大虾推荐*/
+q::before{
+    content: "";
+}
+q::after{
+    content: "";
+}
+.recommend{
+    margin-top: 20px;
+}
+.recommend ul li{
+    border-bottom: 1px solid #ccc;
+    font-size: 12px;
+    color: #999999;
+    height: 30px;
+    line-height: 30px;
+}
+.recommend dl,.recommend p{
+    float: left;
+}
+.recommend q{
+    float: right;
+}
+.recommend dl{
+    width: 360px;
+}
+.recommend dl dt{
+    display: none;
+}
+.recommend dl dd{
+    float: left;
+}
+.recommend dl dd.title{
+    color: #333;
+    padding-right: 5px;
+}
+.recommend p img{
+    visibility: hidden;/*占位的隐藏*/
+}
+
+
+
+.recommend ul li:hover{
+    background: #f5f5f5;
+    height: auto;/*去掉设置的高度,让其高度根据内容自动撑开*/
+
+    /*padding: 10px 0;*/
+}
+.recommend ul li:hover  dl dt{
+    display: block;
+    float: left;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.recommend ul li:hover dl dd{
+    float: none;
+}
+.recommend ul li:hover p img{
+    visibility: visible;/*显示*/
+    margin-top: 5px;
+}
+

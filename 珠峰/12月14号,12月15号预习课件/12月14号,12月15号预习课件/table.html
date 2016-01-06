@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        div{
+            width: 700px;
+        }
+        table{
+            border:1px solid red;
+            border-spacing:10px;
+            border-collapse: collapse;  /*合并*/
+        }
+        table tr td{
+            border:1px solid red;
+        }
+
+
+    </style>
+</head>
+<body>
+<!--
+border : (相当于css属性里的border属性)
+cellspacing:单元格与单元格之间的间隙  (相当于盒子模型里的margin)
+cellpadding:文字与单元格边框线之间的距离 (相当于盒子模型里的padding值)
+-->
+<div>
+<table border="1" cellspacing="10" cellpadding="10" width="100%">
+    <caption>表格的总标题</caption>
+    <thead>
+    <th>11</th>
+    <th>22</th>
+    <th>33</th>
+    <th>4</th>
+    <th>45</th>
+    <th>5</th>
+    <th>6</th>
+    </thead>
+    <tbody>
+
+    <tr>
+        <td width="20%">星期一</td>
+        <td width="10%">星期二</td>
+        <td width="10%">星期三</td>
+        <td width="5%">星期四</td>
+        <td width="15">星期五</td>
+        <td width="30%">星期六</td>
+        <td width="10%">星期日</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td colspan="3">2</td> <!--colspan 合并一行里的几列-->
+        <td rowspan="3">5</td> <!--rowspan合并一列里的几行-->
+        <td>6</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>22</td>
+        <td>33</td>
+        <td>44</td>
+        <!--<td >55</td>-->
+        <td>66</td>
+        <td>77</td>
+    </tr>
+    <tr>
+        <td>111</td>
+        <td>222</td>
+        <td>333</td>
+        <td>444</td>
+        <!--<td>555</td>-->
+        <td>666</td>
+        <td>777</td>
+    </tr>
+    </tbody>
+
+</table>
+</div>
+</body>
+</html>

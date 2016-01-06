@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    /*每个方法里都有两个内置的对象:arguments和this
+     * arguments是一个类数组,是一个对象类型的,它的作用是用来接收实参的,是接收到的参数的集合
+     *
+     * arguments={0:10,1:20,callee:function sum(n1,n2){},length:2}
+     * arguments[0] 第一个实参的值
+     * arguments[1] 第二个实参的值
+     * arguments.callee  方法本身,在学递归调用的时候常常会需要去调用方法本身
+     * arguments.length;  传的实参的个数
+     * */
+    function sum(){
+       // console.dir(arguments);
+        var total  = null;
+        var  n1 = arguments[0];
+        var  n2 = arguments[1];
+        if(arguments.length==2){
+            total = n1+n2;
+        }else if(arguments.length==1){
+            total = n1;
+        }
+        return total;
+    }
+    var a  = 10;
+    var total = sum(a,20);
+    console.log(total);
+
+</script>
+</body>
+</html>

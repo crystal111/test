@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        *{
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            text-decoration: none;
+        }
+        .top{
+            height: 30px;
+            line-height: 30px;
+            background: #000;
+        }
+        .topNav{
+            width: 960px;
+            margin: 0 auto;
+            color: #fff;
+            background: red;
+        }
+        .topNav ul{
+            float: right;
+            margin-top: 0;
+        }
+        .topNav ul li{
+            float: left;
+            font-size: 12px;
+            padding-left: 10px;
+            color: #8b8b8b;
+            list-style: none;
+
+        }
+        .topNav ul li a{
+            color: #b5b5b5;
+            margin-right: 10px;
+            text-decoration: none;
+        }
+        .topNav ul li.vip img,.topNav ul li.vip a,.topNav ul li.sui img,.topNav ul li.sui a{
+            float: left;
+        }
+        .topNav ul li.vip img,.topNav ul li.sui img{
+            margin-top: 3px;
+            margin-right: 3px;
+        }
+        .topLayout{
+            height:112px;
+            border-bottom: 1px solid #ccc;
+        }
+        .topside{
+            width: 960px;
+            margin: 0 auto;
+        }
+        .topside h1{
+            float: left;
+            padding-top:25px;
+        }
+
+        .topul{
+            float: left;
+            margin-left: 51px;
+            margin-top: 4px;
+
+        }
+       .topul li.tNav{
+           float: left;
+           padding: 0 20px;
+           margin: 0 5px;
+           height: 72px;
+           line-height: 106px;
+           border-top: 3px solid #fff;
+           position: relative;
+           list-style: none;
+
+       }
+        .topul li.tNav a{
+           color:#000;
+            font-size: 14px;
+            text-decoration: none;
+        }
+        .topul li.tNav:hover{
+            border-top: 3px solid #0dad51;
+        }
+        .topul li.tMusic{
+          border-top: 3px solid #0dad51;
+            background-color:  #0dad51;
+            border-radius: 0 0 5px 5px;
+        }
+        .topul li.tMusic a{
+            color: #fff;
+        }
+        .tNav ul{
+            position: absolute;
+            bottom: -28px;
+            left: 0;
+            height: 30px;
+            line-height: 30px;
+            width: 520px;
+            display: none;
+        }
+        .tNav ul li{
+            float: left;
+            color: #d7c5d7;
+            list-style: none;
+
+        }
+        .topul .tNav ul li a{
+            color: #000;
+
+        }
+        .topul .tNav ul li a:hover,.topul .tNav ul li a.current{
+            color:#0dad51;
+        }
+        .topul  li:hover ul{
+            display: block;
+        }
+        .search{
+            width:200px;
+            padding: 0 10px;
+            height: 30px;
+            line-height: 30px;
+            border-radius: 5px;
+            border: 1px solid #c3c3c3;
+            background: url("search.jpg") no-repeat 194px center;
+            float: left;
+            margin-top: 37px;
+            box-shadow: 0 0 0 4px #f0f0f0;
+            outline: none;
+            font-size: 12px;
+        }
+        .search:focus{
+        border: 1px solid #0dad51;
+
+        }
+  .main{
+      width:960px;
+      margin: 20px auto;
+  }
+        .left{
+            width: 700px;
+            float: left;
+            border:1px solid red;
+        }
+.right{
+    width: 200px;
+    float: right;
+    border:1px solid red;
+}
+        .online h3{
+            border-left: 5px solid red;
+            font-size: 26px;
+            height: 30px;
+            line-height: 30px;
+            font-weight: normal;
+            padding-left: 10px;
+            position: relative;
+        }
+        .online h3 .more{
+            color:#0dad51;
+            font-size: 12px;
+        }
+    .online span{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        top: 2px;
+
+    }
+        .online span a{
+           display:inline-block;
+            width: 30px;
+            height: 32px;
+        }
+        .online .arrowl{
+            background:url("icon_sprite.png") no-repeat 0 -95px;
+            top:2px;
+        }
+        .online .arrowr{
+            background:url("icon_sprite.png") no-repeat 0 -128px;
+        }
+        .online .arrowl:hover{
+            background-position: -64px -95px;
+        }
+        .online .arrowr:hover{
+            background-position: -64px -128px;
+        }
+        .list li{
+            float: left;
+            margin: 0 0 0 0;
+            cursor: pointer;
+            position: relative;
+        }
+        .list li img{
+            width: 130px;
+            height: 130px;
+        }
+        .list li p{
+            width: 100%;
+            height: 46px;
+            position: relative;
+            left: 0;
+            bottom:52px;
+            background: rgba(0,0,0,.3);
+        }
+        .list li p a{
+            font-size: 12px;
+            display: block;
+            line-height: 20px;
+            width:125px;
+            padding-left: 5px;
+        }
+        .list li p .one{
+              color:green;
+            padding-top: 7px;
+
+          }
+        .list li p .other{
+            color:green;
+            padding-top:3px ;
+
+        }
+        .list li span{
+            display: block;
+            width: 20px;
+            height: 20px;
+            background: url("icon_play.png") no-repeat 0 0;
+            position: absolute;
+            top:60px;
+            right: 10px;
+            display: none;
+        }
+        .list li span：hover{
+            background-position: -20px 0;
+        }
+        .list li:hover span{
+            display: block;
+        }
+        .list{
+            margin-left: -12px;
+        }
+        .right .popular dt{
+            font-size: 20px;
+            color:orange;
+            float: left;
+            width: auto;
+            margin-right: 10px;
+
+        }
+
+        .popular .cur dt img{
+            width: 52px;
+            height: 52px;
+            margin-right: 10px;
+            margin-left: 10px ;
+
+        }
+        .popular .cur dd{
+            font-size: 12px;
+            color: #515151;
+            float:none ;
+        }
+        .popular .cur dd.one{
+            font-size: 20px;
+            color:orange;
+            padding-bottom: 10px;
+        }
+        .popular dl dt{
+            float: left;
+            color: #eee;
+            width:42px;
+        }
+        .popular dl{
+            float: left;
+            width: 100%;
+        }
+        .popular dl dd{
+            float: left;
+            font-size: 12px;
+            color: #0dad51;
+        }
+        .popular dl dd.other{
+         float: right;
+        }
+    </style>
+</head>
+<body>
+<div class="top">
+    <div class="topNav">
+        <ul>
+            <li>您还未登陆，<a href="###">马上登陆</a><>
+            <li class="vip"><img src="vip.png" alt=""/><a href="##">绿钻</a><>
+            <li class="sui"><img src="sui.png" alt=""/><a href="##">付费音乐包</a><>
+            <li><a href="##">全名k歌</a><>
+            <li><a href="##">QQ音乐</a><>
+            <li><a href="##">QPlay</a><>
+        </ul>
+    </div>
+</div>
+
+<div class="topLayout">
+    <div class="topside">
+        <h1><img src="frame_logo_min.png"/></h1>
+        <ul class="topul">
+            <li class="tNav tMusic"><a href="##">音乐馆</a>
+            <ul>
+                <li><a href="###" class="current">首页</a></li>
+                <li><a href="##">排行榜</a></li>
+                <li><a href="##">鸽蛋广场</a></li>
+                <li><a href="##">歌单</a></li>
+                <li><a href="##">歌手</a></li>
+                <li><a href="##">独家首发</a></li>
+            </ul>
+            </li>
+            <li class="tNav"><a href="##">MV</a>
+                <ul>
+                    <li><a href="###" class="current">首页</a></li>
+                    <li><a href="##">排行榜</a></li>
+                    <li><a href="##">鸽蛋广场</a></li>
+                    <li><a href="##">歌单</a></li>
+                    <li><a href="##">歌手</a></li>
+                    <li><a href="##">独家首发</a></li>
+                </ul>
+            </li>
+            <li class="tNav"><a href="##">我的音乐</a>
+                <ul>
+                    <li><a href="###" class="current">首页</a></li>
+                    <li><a href="##">排行榜</a></li>
+                    <li><a href="##">鸽蛋广场</a></li>
+                    <li><a href="##">歌单</a></li>
+                    <li><a href="##">歌手</a></li>
+                    <li><a href="##">独家首发</a></li>
+                </ul>
+            </li>
+            <li class="tNav"><a href="##">下载客户端</a>
+                <ul>
+                    <li><a href="###" class="current">首页</a></li>
+                    <li><a href="##">排行榜</a></li>
+                    <li><a href="##">鸽蛋广场</a></li>
+                    <li><a href="##">歌单</a></li>
+                    <li><a href="##">歌手</a></li>
+                    <li><a href="##">独家首发</a></li>
+                </ul>
+            </li>
+        </ul>
+        <input type="text" class="search" placeholder="找到好音乐"/>
+    </div>
+</div>
+<div class="main clearfix">
+    <div class="left" >
+        <div class="online">
+            <h3>在线首发<a href="##" class="more">/更多</a>
+                <span>
+                    <a href="##" class="arrowl"></a><a href="##" class="arrowr"></a>
+                </span>
+                <ul class="list">
+                    <li><img src="001AMQBG3GzakR.jpg" alt=""/>
+
+                        <p><a href="##" class="one">和自己对话--感动</a><a href="##" class="other">林俊杰</a></p>
+                        <span></span>
+                    </li>
+                    <li><img src="001AMQBG3GzakR.jpg" alt=""/>
+
+                        <p><a href="##" class="one">和自己对话--感动</a><a href="##" class="other">林俊杰</a></p>
+                        <span></span>
+                    </li>                    <li><img src="001AMQBG3GzakR.jpg" alt=""/>
+
+                    <p><a href="##" class="one">和自己对话--感动</a><a href="##" class="other">林俊杰</a></p>
+                    <span></span>
+                </li>
+                </ul>
+            </h3>
+        </div>
+    </div>
+    <div class="right">
+        <div class="popular" >
+            <dl class="cur">
+                <dt><span style="vertical-align: top">01.</span><img src="001U2bFD2nSrCw.jpg" alt=""/></dt>
+                <dd class="one">原动力</dd>
+                <dd >哈哈</dd>
+            </dl>
+            <dl>
+                <dt><span>02.</span></dt>
+                <dd>hahhah</dd>
+                <dd class="other">陈奕迅</dd>
+            </dl>
+            <dl>
+                <dt><span>02.</span></dt>
+                <dd>hahhah</dd>
+                <dd class="other">陈奕迅</dd>
+            </dl>
+            <dl>
+                <dt><span>02.</span></dt>
+                <dd>hahhah</dd>
+                <dd class="other">陈奕迅</dd>
+            </dl>
+            <dl>
+                <dt><span>02.</span></dt>
+                <dd>hahhah</dd>
+                <dd class="other">陈奕迅</dd>
+            </dl>
+        </div>
+    </div>
+</div>
+</body>
+</html>

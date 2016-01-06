@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="reset.css"/>
+    <style type="text/css">
+
+        .capital {
+            padding: 0;
+            margin: 0;
+            width: 1345px;
+            height: 2985px;
+            border: 1px solid black;
+        }
+
+        .capital .head {
+            height: 120px;
+            border: 1px solid black;
+            background: url("未标题-1.png") repeat;
+        }
+
+        .capital .head .headtop {
+            text-align: center;
+            color: #ff6600;
+            margin: 5px 0;
+
+        }
+
+        .capital .head .headtop a {
+            text-decoration: none;
+        }
+
+        .capital .head .headmid {
+            text-align: center;
+            color: white;
+            margin-top: 12px;
+            height: 60px;
+        }
+
+        .capital .head .headmid .img {
+            position: relative;
+            top: 5px;
+
+        }
+
+        .capital .head .headmid .img:hover {
+            background-color: #dc6600;
+            cursor: pointer;
+        }
+
+        .capital .head .headmid ul, li {
+            display: inline-block;
+            cursor: pointer;
+            margin-top: 3px;
+        }
+
+        .capital .head .headmid .findm {
+            width: 90px;
+            height: 59px;
+            background: url("渐变色-3.png") repeat;
+            position: relative;
+            top: -11px;
+        }
+
+        .capital .head .headmid .findm a {
+            position: relative;
+            top: 10px;
+            margin-top: 10px;
+        }
+
+        .capital .head .headmid .keyword {
+            text-align: center;
+            background: url("未标题-4.png") no-repeat;
+            background-position: 5px 10px;
+            cursor: pointer;
+            background-color: white;
+            margin-left: 9px;
+            height: 30px;
+            border-radius: 3px;
+        }
+
+        .capital .head .headmid .elbum {
+            margin-left: -20px;
+        }
+
+        .capital .head .headmid .elbum li {
+            border: 1px solid #db6b16;
+            background-color: #fa8a1c;
+            border-radius: 3px;
+            padding: 8px;
+            margin: -1px;
+
+        }
+
+        .capital .head .headmid .elbum li:hover {
+            background-color: #dc6701;
+
+        }
+
+        .capital .head .headmid .rigistered {
+            margin-left: -28px;
+            text-align: center;
+
+        }
+
+        .capital .head .headmid .rigistered li {
+            width: 60px;
+            background-color: #ca671b;
+            text-align: center;
+            font-size: 10px;
+            padding: 9px 5px;
+            border: 1px solid #db6b16;
+            border-radius: 3px;
+        }
+
+        .capital .head .headmid .rigistered li:hover {
+            background-color: #dc6701;
+        }
+
+        .capital .head .headmid .rigistered img {
+            padding: 0;
+            margin: 0;
+            width: 17px;
+            height: 14px;
+            margin-top: -5px;
+            text-align: left;
+        }
+
+        .capital .head .headbot ul {
+            padding: 0;
+            margin: 0;
+            display: inline-block;
+        }
+
+        .capital .head .headbot ul {
+            margin-left: 187px;
+        }
+
+        .capital .head .headbot ul li {
+            margin-right: 30px;
+
+        }
+
+        .capital .head .headbot ul li:hover {
+            color: #ff7986;
+        }
+
+        .capital .head .headbot .vip li {
+            background: url("未标题-5.png") no-repeat 8px 2px;
+            padding-left: 10px;
+            text-align: center;
+        }
+
+        .capital .head .headbot .vip a {
+            margin-left: 20px;
+            padding-top: -2px;
+            text-decoration: none;
+        }
+
+        .capital .head .headbot .vip .vipmid {
+            background-position: -140px 2px;
+        }
+
+        .capital .head .headbot .vip .vipright {
+            background-position: -280px 2px;
+
+        }
+
+        .capital .head .headbot .vip a:hover {
+            color: #ff7986;
+        }
+
+        .content .left {
+            width: 740px;
+            height: 2050px;
+            border: 1px solid black;
+            margin: 10px 120px;
+            float: left;
+            padding: 10px;
+        }
+
+        .content .right {
+            width: 310px;
+            height: 2050px;
+            border: 1px solid black;
+            background-color: #63a7ce;
+            float: left;
+            margin-top: 10px;
+            margin-left: -80px;
+        }
+
+        .content .left #tab {
+            margin: 10px auto;
+            width: 740px;
+        }
+
+        .content .left #tab ul {
+            position: relative;
+            top: 1px;
+        }
+
+        .content .left #tab ul li {
+            width: 5px;
+            height: 5px;
+            text-align: center;
+            border: 1px solid burlywood;
+            cursor: pointer;
+            border-radius: 10px;
+            position: relative;
+            top: 149px;
+            left: 467px;
+            background-color: white;
+            display: inline-block;
+        }
+
+        .content .left #tab ul li.select {
+            background: black;
+        }
+
+        .content .left #tab div {
+            display: none;
+            height: 170px;
+            text-align: center;
+            font-size: 28px;
+            border: 1px solid white;
+        }
+
+        .content .left #tab div.select {
+            display: block;
+            margin-top: -39px;
+        }
+
+        .content .left .like h4, a {
+            display: inline-block;
+        }
+
+        .content .left .like a {
+            color: #ff6600;
+            margin-top: -10px;
+            text-decoration: none;
+        }
+
+        .content .left .like .shato {
+            margin: -40px;
+            font-size: 10px;
+            margin-top: -25px;
+            width: 740px;
+            margin-left: 0;
+
+        }
+
+        .content .left .like .shato p {
+            width: 143px;
+            height: 25px;
+            margin: -3px 4px 7px -5px;
+            background-color: #f5f5f5;
+            text-align: center;
+            padding-top: 5px;
+
+        }
+
+        .content .left .banner {
+            height: 40px;
+            font-size: 10px;
+            margin-top: 50px;
+        }
+
+        .content .left .banner ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        .content .left .banner ul li {
+            cursor: pointer;
+            height: 40px;
+            text-align: left;
+            margin-top: 0;
+            margin-right: 60px;
+            line-height: 12px;
+        }
+
+        .content .left .banner li:hover {
+            text-decoration: underline;
+        }
+
+        .content .left .banner .list {
+            position: relative;
+            top: -7px;
+            font-size: 14px;
+        }
+
+        .content .left .shato .sp, .banner p {
+            color: #aaaaaa;
+        }
+
+        .content .left .dislike {
+            border: 1px solid red;
+            width: 140px;
+            height: 156px;
+            opacity: 0.5;
+            background-color:black;
+            position: absolute;
+            top:-134px;
+            left:0;
+            text-align: center;
+            padding-top: 10px;
+            line-height: 60px;
+            display: none;
+        }
+
+        .sp:hover .dislike {
+            display: block;
+        }
+
+        .picture {
+            margin: 30px 0;
+        }
+        .shato  .xy{
+            position:relative;
+         }
+        .shato .y{
+            border: 1px solid red;
+            width: 140px;
+            height: 129px;
+            opacity: 0.5;
+            background-color:black;
+            top:1px;
+            left:0;
+            text-align: center;
+            padding-top: 10px;
+            position:absolute;
+            display: none;
+
+        }
+        .shato .xy:hover .y{
+            display: block;
+        }
+        .newe {
+            height: 20px;
+            width: 700px;
+            clear: both;
+        }
+       .ytop{
+           z-index: 2;
+           background-color:white;
+           width:32px;
+           height: 16px;
+           position: absolute;
+           top: 0;
+           left: 0;
+           display:none;
+       }
+        .y:hover .ytop{
+            display: block;
+        }
+       .ybot{
+           z-index: 2;
+           width:24px;
+           height:23px;
+           position: absolute;
+           top:111px;
+           left:111px;
+           display: none;
+       }
+        .y:hover .ybot{
+            display: block;
+            background:url("bofanganniu1.png") no-repeat;
+        }
+        .vv ul,li{
+            padding: 0;
+            margin: 0;
+        }
+        .vv li:hover{
+            background-color: orange;
+        }
+        .vv{
+            width: 60px;
+            height:60px;
+            background-color:white;
+            position: absolute;
+            display: none;
+            top: 0;
+            left: 0;
+
+        }
+        .ytop:hover .vv{
+            display: block;
+        }
+        q::before{
+            content: "";
+        }
+        q::after{
+            content: "";
+        }
+       .xmselect{
+           margin-top: 180px;
+       }
+       .xmselect ul li{
+           padding: 0;
+           margin: 0;
+           border-bottom: 1px solid #ccc;
+           font-size: 12px;
+           color: #999999;
+           height: 30px;
+           line-height: 30px;
+           width: 100%;
+       }
+       .xmselect dl,.xmselect p{
+           float: left;
+       }
+       .xmselect q{
+           float: right;
+       }
+       .xmselect dl{
+           width: 360px;
+           margin-top: 0;
+       }
+       .xmselect dl dt{
+           display: none;
+       }
+       .xmselect dl dd{
+           float: left;
+       }
+       .xmselect dl .title{
+           color: #333;
+           padding-right: 5px;
+       }
+       .xmselect p img{
+           visibility: hidden;/*占位的隐藏*/
+       }
+
+       /*划过*/
+       .xmselect ul li:hover{
+           background: #f5f5f5;
+           height: auto;/*内容随高度撑开*/
+       }
+       .xmselect ul li:hover dl dt{
+           display: block;
+           float: left;
+           margin-right: 5px;
+           margin-top: 5px;
+       }
+        .xmselect ul li:hover dl dd{
+            float: none;
+        }
+        .xmselect ul li:hover p img{
+            visibility: visible;/*显示*/
+            margin-top: 5px;
+        }
+
+        .newe .newefirst {
+            display: inline-block;
+        }
+
+        .newe .newefirst h1 {
+            display: inline-block;
+            padding: 0;
+            margin: 0;
+            font-size: 14px;
+        }
+
+        .newe .newefirst a {
+            text-decoration: none;
+            display: inline-block;
+            font-size: 12px;
+        }
+
+        .newe ul li {
+            width: 35px;
+            height: 15px;
+            border-right: 1px solid #f1ebf1;
+            display: inline-block;
+            padding-right: -10px;
+            margin: 0;
+            font-size: 12px;
+        }
+
+        .newe ul {
+            margin: 0;
+            padding: 0;
+            float: right;
+        }
+        .woman{
+            width: 710px;
+            height:147px;
+            border: 1px solid black;
+        }
+        .woman img{
+            width: 142px;
+            height: 142px;
+            float:left;
+        }
+
+    </style>
+</head>
+<body>
+<div class="capital">
+    <div class="head">
+        <div class="headtop">您的电脑需要,<a href="##">马上升级</a></div>
+        <div class="headmid">
+            <img src="未标题-2.png" class="img"/>
+            <ul>
+                <li class="findm"><a>发现音乐</a></li>
+                <li>我的音乐</li>
+            </ul>
+            <ul class="elbum">
+                <li>精选集</li>
+                <!---->
+                <li>电台</li>
+                <!---->
+                <li>音乐人</li>
+                <!-- -->
+                <li>演出</li>
+            </ul>
+            <input class="keyword" autocomplete="off" value="音乐搜索，找人..." name="key">
+            <ul class="rigistered">
+                <li>免费注册</li>
+                <li>立即登陆</li>
+                <!---->
+                <li style="width: 28px"><img src="虾米_03.png"/></li>
+                <!---->
+                <li style="width: 28px"><img src="虾米_05.png"/></li>
+            </ul>
+        </div>
+        <div class="headbot">
+            <ul>
+                <li style="color:#ff7986">热门</li>
+                <li>排行榜</li>
+                <li>专辑</li>
+                <li>艺人</li>
+                <li>风格</li>
+                <li>直播间</li>
+            </ul>
+            <ul class="vip">
+                <li><a href="##">vip会员</a></li>
+                <li class="vipmid"><a href="##">最近播放</a></li>
+                <li class="vipright"><a href="##">下载客户端</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="content">
+        <div class="left">
+            <div id="tab">
+                <ul>
+                    <li class="select"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <div class="select"><img src="14505773382040.jpg"/></div>
+                <div><img src="14508359474454.jpg"/></div>
+                <div><img src="14509229942266.jpg"/></div>
+                <div><img src="14510095145460.png"/></div>
+                <div><img src="14510095576279.jpg"/></div>
+            </div>
+            <div class="like">
+                <h4>猜你喜欢</h4><a href="##">/更多</a>
+                <div class="shato">
+                    <div style="display: inline-block">
+                        <li><img src="虾米_03_06.png"/>
+                            <p>基于你最近听的歌</p>
+                        </li></div>
+
+                        <li>
+                            <div  class="xy">
+                                <img src="虾米_03_03.png" alt=""/>
+                                <div class="y">
+                                   <div class="ytop"> <img  src="aixin.png"/>
+                                         <div class="vv">
+                                             <ul>
+                                                 <li>哈哈哈哈</li>
+                                                 <li>哈哈哈哈</li>
+                                                 <li>哈哈哈哈</li>
+                                                 <li>哈哈哈哈</li>
+                                             </ul>
+                                         </div>
+                                   </div>
+                                    <img class="ybot" src="bofanganniu.png"/>
+                                </div>
+                            </div>
+                            <div class="sp" style="position:relative">基于最近流行为你推荐
+                                <a class="dislike">
+                                    基于最近流行为你推荐
+                                    <input type="button" value="不喜欢"/>
+                                </a>
+                            </div>
+                        </li>
+
+                    <li>
+                        <div  class="xy">
+                            <img src="虾米_03_12.png" alt=""/>
+                            <div class="y">
+                                <div class="ytop"> <img  src="aixin.png"/>
+                                    <div class="vv">
+                                        <ul>
+                                            <li>哈哈哈哈</li>
+                                            <li>哈哈哈哈</li>
+                                            <li>哈哈哈哈</li>
+                                            <li>哈哈哈哈</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <img class="ybot" src="bofanganniu.png"/>
+                            </div>
+                        </div>
+                        <div class="sp" style="position:relative">基于最近流行为你推荐
+                            <a class="dislike">
+                                基于最近流行为你推荐
+                                <input type="button" value="不喜欢"/>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div  class="xy">
+                            <img src="虾米_03_03.png" alt=""/>
+                            <div class="y">
+                                <div class="ytop"> <img  src="aixin.png"/>
+                                    <div class="vv">
+                                        <ul>
+                                            <li>哈哈哈哈</li>
+                                            <li>哈哈哈哈</li>
+                                            <li>哈哈哈哈</li>
+                                            <li>哈哈哈哈</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <img class="ybot" src="bofanganniu.png"/>
+                            </div>
+                        </div>
+                        <div class="sp" style="position:relative">基于最近流行为你推荐
+                            <a class="dislike">
+                                基于最近流行为你推荐
+                                <input type="button" value="不喜欢"/>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div  class="xy">
+                            <img src="虾米_03_03.png" alt=""/>
+                            <div class="y">
+                                <div class="ytop"> <img  src="aixin.png"/>
+                                    <div class="vv">
+                                        <ul>
+                                            <li>哈哈哈哈</li>
+                                            <li>哈哈哈哈</li>
+                                            <li>哈哈哈哈</li>
+                                            <li>哈哈哈哈</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <img class="ybot" src="bofanganniu.png"/>
+                            </div>
+                        </div>
+                        <div class="sp" style="position:relative">基于最近流行为你推荐
+                            <a class="dislike">
+                                基于最近流行为你推荐
+                                <input type="button" value="不喜欢"/>
+                            </a>
+                        </div>
+                    </li>
+
+                </div>
+            </div>
+            <div class="banner">
+                <ul>
+                    <li class="list"><strong>今日推荐歌单</strong></li>
+                    <li class="mrqi">第三季 齐秦组考核
+                        <p>中国好声音</p>
+                    </li>
+                    <li>孤岛
+                        <p>马頔</p>
+                    </li>
+                    <li>Chaos and the Calm
+                        <p>James Bay </p>
+                    </li>
+                    <li>Are You With Me
+                        <p>Lost Frequencies </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="picture">
+                <img src="1434613585_1.png"/>;
+                <img src="1450069774_1.jpg"/>;
+                <img src="1450233460_1.jpg"/>;
+                <img src="1450840582_1.png"/>;
+            </div>
+            <div class="newe">
+                <div class="newefirst"><h1>新蝶首发</h1><a href="##">/更多</a></div>
+                <ul>
+                    <li>全部</li>
+                    <li>华语</li>
+                    <li>欧美</li>
+                    <li>日本</li>
+                    <li>韩国</li>
+                </ul>
+                <div class="woman">
+                    <img src="21002260481445583405_5.jpg"/>
+                    <img src="21002320441450658738_5.jpg" alt=""/>
+                    <img src="21002395301450104183_5.jpg" alt=""/>
+                    <img src="21002420941448536566_5.jpg" alt=""/>
+                    <img src="21002475821450625632_5.jpg" alt=""/>
+                </div>
+            </div>
+            <div class="xmselect">
+                <ul>
+                    <li class="clearfix">
+                        <dl>
+                            <dt><img src="21002475821450625632_5.jpg" width="55px" height="55px"/></dt>
+                            <dd class="title">哈哈哈哈哈</dd>
+                            <dd>哈哈哈</dd>
+                        </dl>
+                        <p><img src="21002475821450625632_5.jpg" width="30px" height="30px"/>就gif公司复古风高考</p>
+                        <q>2分钟</q>
+                    </li>
+
+
+
+
+                    <li class="clearfix">
+                        <dl>
+                            <dt><img src="21002475821450625632_5.jpg" width="55px" height="55px"/></dt>
+                            <dd class="title">哈哈哈哈哈</dd>
+                            <dd>哈哈哈</dd>
+                        </dl>
+                        <p><img src="21002475821450625632_5.jpg" width="30px" height="30px"/>就gif公司复古风高考</p>
+                        <q>2分钟</q>
+                    </li>
+                    <li class="clearfix">
+                        <dl>
+                            <dt><img src="21002475821450625632_5.jpg" width="55px" height="55px"/></dt>
+                            <dd class="title">哈哈哈哈哈</dd>
+                            <dd>哈哈哈</dd>
+                        </dl>
+                        <p><img src="21002475821450625632_5.jpg" width="30px" height="30px"/>就gif公司复古风高考</p>
+                        <q>2分钟</q>
+                    </li>
+                    <li class="clearfix">
+                        <dl>
+                            <dt><img src="21002475821450625632_5.jpg" width="55px" height="55px"/></dt>
+                            <dd class="title">哈哈哈哈哈</dd>
+                            <dd>哈哈哈</dd>
+                        </dl>
+                        <p><img src="21002475821450625632_5.jpg" width="30px" height="30px"/>就gif公司复古风高考</p>
+                        <q>再给我2分钟</q>
+                    </li>
+                </ul>
+            </div>
+            <div class="recommend"></div>
+        </div>
+        <div class="right"></div>
+    </div>
+    <div class="foot"></div>
+</div>
+</body>
+</html>
+<script type="text/javascript">
+    var oTab = document.getElementById("tab");
+    var oLis = oTab.getElementsByTagName("li");
+    var oDivs = oTab.getElementsByTagName("div");
+    function haha(a) {
+        for (var i = 0; i < oLis.length; i++) {
+            oLis[i].className = null;
+            oDivs[i].className = null;
+        }
+        oLis[a].className = "select";
+        oDivs[a].className = "select";
+    }
+
+    for (var i = 0; i < oLis.length; i++) {
+        oLis[i].apple = i;
+        oLis[i].onclick = function () {
+            haha(this.apple);
+        }
+    }
+    ;
+</script>

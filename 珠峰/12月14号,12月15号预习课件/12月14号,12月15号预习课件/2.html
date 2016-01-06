@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        .displayInline{
+            width: 150px;
+            height: 300px;
+            background: pink;
+            padding: 20px;
+            overflow: hidden;
+
+        }
+        .displayInline p{
+            background: paleturquoise;
+            line-height: 30px;
+            overflow: hidden;
+        }
+        .displayInline .one span{
+            float: left;
+        }
+        .displayInline i{
+            float: left;
+            margin-top: 13px;
+            width: 0;
+            height: 0;
+            border:5px solid red;
+            border-color:  red transparent transparent transparent;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="displayInline">
+    <p class="one"><span>这是一个行内元素</span><i></i></p>
+
+</div>
+</body>
+</html>

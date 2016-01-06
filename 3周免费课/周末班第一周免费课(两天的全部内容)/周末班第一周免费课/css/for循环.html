@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+</head>
+<body>
+<ul id="list">
+    <li>reaaaaaaaaaaaaaaa</li>
+    <li>sssssssssssss</li>
+    <li>aaaaaaaaaaaaaa</li>
+    <li>reaaaaaaaaaaaaaaa</li>
+    <li>sssssssssssss</li>
+    <li>aaaaaaaaaaaaaa</li>
+</ul>
+</body>
+</html>
+<script type="text/javascript" >
+    var oUl=document.getElementById("list");
+    var oLis=oUl.getElementsByTagName("li");
+    console.log(oLis)
+    for(var i=0;i<oLis.length;i++){
+        if (i%2==0) {
+            oLis.item(i).style.backgroundColor= "green";
+        } else {
+            oLis.item(i).style.backgroundColor= "purple";
+        }
+                oLis.item(i).style.margin="10px 20px";
+                oLis.item(i).style.listStyle="none";
+        }
+</script>

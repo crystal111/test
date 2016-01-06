@@ -1,0 +1,61 @@
+.clearfix:before,.clearfix:after{
+    clear: both;
+    display: block;
+    overflow: visible;
+    content: "";
+}
+.clearfix{
+    zoom: 1;
+}
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #f7f7f7;
+}
+ul{
+    list-style: none;
+}
+.topNav{
+    background-color: #000;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    font-size: 12px;
+    font-family: "Microsoft Yahei";
+}
+.topNav .ulNav{
+    float: left;
+}
+.topNav .new{
+    float: left;
+    padding: 0 5px;
+    background: #ff7b00;
+    border-radius: 3px;/*css3属性圆角*/
+    line-height: 22px;
+    margin-top: 6px;
+}
+.topNav .nav{
+    float: left;
+    padding: 0 25px 0 10px;
+    position: relative;
+}
+.topNav .nav span{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border:5px solid #fff;
+    border-color: #fff transparent transparent transparent;
+    top:15px;
+    right: 15px;
+}
+.topNav .nav:hover{
+    background: #fff;
+    color: #000;
+}
+.topNav .nav:hover span{
+    border-color: #000 transparent transparent transparent;
+}
+
+/*滑过部分*/

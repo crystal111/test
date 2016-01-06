@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        div .first {
+            border: 1px solid black;
+            background-color: black;
+            text-align: right;
+            color: white;
+
+        }
+
+        div .first li {
+            display: inline-block;
+            padding: 0 20px 0 0;
+
+        }
+
+        div .first li a {
+            background-color: black;
+            color: white;
+            text-decoration: none;
+        }
+
+        .img {
+            position: relative;
+            top: 5px;
+        }
+
+        div ul a:hover {
+            color: green;
+        }
+
+        div .second li {
+            display: inline-block;
+        }
+
+        div .second {
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .second img {
+            position: relative;
+            top: 30px;
+        }
+
+        div .second .findmusic {
+            border: 1px solid black;
+            height: 40px;
+            width: 200px;
+            border-radius: 10px;
+            margin-left: 20px;
+        }
+
+        div .third {
+            text-align: center;
+            cursor: pointer;
+        }
+
+        div .third li {
+            display: inline-block;
+            margin-top: 30px;
+        }
+
+        .content .divleft div {
+            width: 700px;
+            height: 290px;
+            margin: 20px 0 0 10px;
+
+        }
+
+        .content .divleft {
+            float: left;
+            margin-left: 230px;
+        }
+
+        .content .divright div {
+            width: 400px;
+            height: 300px;
+            float: left;
+            margin: 10px 0px -2px 20px;
+        }
+
+        div .two img {
+            width: 130px;
+            height: 130px;
+        }
+
+        div .two li {
+            float: left;
+            list-style: none;
+            padding-left: 8px;
+        }
+
+        div .two p {
+            font-size: 12px;
+        }
+
+        .content .divleft .six {
+            height: 30px;
+            line-height: 30px;
+            border-left: 4px solid red;
+            border-color: transparent transparent transparent red;
+        }
+
+        .content .divleft .six h3, a {
+            display: inline;
+            text-decoration: none;
+            padding-left: 10px;
+        }
+
+        .content .divleft .two ul li {
+            position: relative;
+            margin-top: 10px;
+        }
+
+        .content .divleft .two ul li p {
+            position: absolute;
+            color: darkgreen;
+            top: 98px;
+            left: 8px;
+            border: 0 solid black;
+            height: 32px;
+            background-color: black;
+            width: 129px;
+            opacity: 0.8;
+            text-align: center;
+            font-size: 5px;
+        }
+
+        .content .divleft .two ul li a {
+            color: white;
+        }
+
+        .content .divleft .three {
+            height: 30px;
+            line-height: 30px;
+            border-left: 4px solid red;
+            border-color: transparent transparent transparent red;
+        }
+
+        .content .divleft .three h3, a {
+            display: inline;
+            text-decoration: none;
+            padding-left: 10px;
+        }
+
+        div .four img {
+            width: 160px;
+            height: 90px;
+        }
+
+        div .four li {
+            float: left;
+            list-style: none;
+            padding: 10px 7px 0 7px;
+        }
+
+        div .four p {
+            font-size: 10px;
+            text-align: center;
+        }
+
+        .content .divleft .four span {
+            border: 5px solid black;
+            border-color: transparent transparent transparent black;
+            font-size: 0px;
+            position: relative;
+            bottom: 4px;
+        }
+
+        .content .divleft .five {
+            height: 550px;
+            position: relative;
+
+        }
+
+        .content .divleft .five .five1head {
+            height: 30px;
+            width: 320px;
+            position: absolute;
+            border-left: 5px solid green;
+            border-color: transparent transparent transparent green;
+            top: -18px;
+            left: 10px;
+            display: inline-block;
+            float: left;
+        }
+
+        .content .divleft .five1 {
+            height: 470px;
+            width: 320px;
+            position: absolute;
+            border-color: transparent transparent transparent transparent;
+            top: 23px;
+            left: 10px;
+            line-height: 26px;
+            font-size: 14px;
+        }
+
+        .content .divleft .five1 ul li {
+            list-style: none;
+            padding: 5px;
+        }
+
+        .content .divleft .five .five2head {
+            height: 30px;
+            width: 320px;
+            position: absolute;
+            top: -18px;
+            left: 351px;
+            border: 5px solid green;
+            border-color: transparent transparent transparent green;
+        }
+
+        .content .divleft .five2 {
+            height: 470px;
+            width: 320px;
+            position: absolute;
+            top: 23px;
+            left: 351px;
+            border-color: transparent transparent transparent grey;
+            line-height: 20px;
+            font-size: 14px;
+        }
+
+        .content .divleft .five2 ul li {
+            list-style: none;
+            padding: 5px;
+        }
+
+        .content .divleft .eight {
+            height: 30px;
+            line-height: 30px;
+            border-left: 4px solid red;
+            border-color: transparent transparent transparent red;
+        }
+
+        .content .divleft .eight h3, a {
+            display: inline;
+            text-decoration: none;
+            padding-left: 10px;
+        }
+
+        div .nine img {
+            width: 130px;
+            height: 130px;
+        }
+
+        div .nine .nine1 {
+            width: 270px;
+            height: 270px;
+        }
+
+        div .nine li {
+            float: left;
+            list-style: none;
+            padding-left: 8px;
+        }
+
+        div .nine p {
+            font-size: 12px;
+            cursor: pointer;
+            color: #63b640;
+            text-align: center;
+        }
+
+        div .nine a {
+            font-size: 12px;
+            color: black;
+            text-align: center;
+        }
+
+        .content .divleft .nine {
+            height: 350px;
+        }
+
+        .content .divright .onetopboth {
+            width: 222px;
+            height: 105px;
+
+        }
+
+        .content .divright .onetop {
+            width: 222px;
+            height: 34px;
+            margin: 0;
+            background: url("未标题-1.png") no-repeat;
+            margin-left: 12px;
+        }
+
+        .content .divright .onemid {
+            width: 173px;
+            height: 47px;
+            margin: 32px 25px 0 25px;
+            text-align: center;
+            background: url("未标题-2.png") no-repeat;
+
+        }
+
+        .content .divright .onebot {
+            background: url("20151207172308.jpg") no-repeat;
+            width: 220px;
+            height: 88px;
+            margin-top: 77px;
+            margin-left: 42px;
+        }
+
+        .content .divright .two {
+            height: 440px;
+        }
+
+        .content .divright .two .two1 {
+            background: url("IE4F2R}4ZA[7M[2PDRV_]MG.png") no-repeat;
+            width: 146px;
+            height: 30px;
+            margin-left: 42px;
+
+        }
+
+        .content .divright .two .two2 {
+            height: 17px;
+            margin-left: 42px;
+        }
+
+        .content .divright .two .two2 ul li {
+            border-right: 1px solid #d8d8d8;
+            margin: 0 7px;
+            color: black;
+            margin-left: -20px;
+        }
+
+        .content .divright .two .two2 ul li:hover {
+            color: lawngreen;
+        }
+
+        .content .divright .two .two3 {
+            height: 55px;
+            width: 222px;
+            display: inline-block;
+            position: relative;
+        }
+
+        .content .divright .two .two3 .two3left {
+            background: url("5{TJJNMW1_7M[EAY0UR%%2F_03.jpg") no-repeat;
+            background-color: bisque;
+            width: 29px;
+            height: 20px;
+            line-height: 20px;
+            color: #ff5400;
+        }
+
+        .content .divright .two .two3 .two3mid img {
+            width: 50px;
+            height: 50px;
+            margin: -40px 0 0 40px;
+        }
+
+        .content .divright .two .two3 .two3right {
+            width: 90px;
+            height: 50px;
+            font-size: 10px;
+            position: absolute;
+            left: 100px;
+        }
+
+        .content .divright .two .two3 .two3word {
+            height: 200px;
+            position: absolute;
+            top: 30px;
+            margin-left: -19px;
+            line-height: 15px;
+        }
+
+        .content .divright .two .two3 .two3word div {
+            height: 15px;
+            display: block;
+        }
+
+        .content .divright .two .two3 .number {
+            width: 15px;
+            height: 15px;
+            color: grey;
+            text-align: left;
+            line-height: 5px;
+        }
+
+        .content .divright .two .two3 .remember {
+            width: 222px;
+            height: 15px;
+            line-height: 5px;
+            text-align: left;
+            margin-left: 20px;
+            margin-top: 10px;
+            font-size: 10px;
+        }
+
+        .content .divright .two .two3 .name {
+            width: 222px;
+            height: 15px;
+            text-align: right;
+            position: absolute;
+            font-size: 10px;
+            line-height: 5px;
+        }
+
+        .content .divright .two .two3.two3right {
+            height: 100px;
+            width: 222px;
+            line-height: 100px;
+            background-color: #b80f8e;
+            list-style: none;
+        }
+
+        #last {
+            list-style: none;
+        }
+
+        #last li {
+            background: url("客户端-1.png") no-repeat 0 0;
+            line-height: 30px;
+            padding-top: -10px;
+        }
+
+    </style>
+</head>
+<body>
+<div>
+    <div class="a">
+        <ul class="first">
+            <li>您还未登录<a href="##">马上登陆</a></li>
+            <li><a href="##"><img src="vip.png" class="img"/>绿钻</a></li>
+            <li><a href="##"><img src="sui.png" class="img"/>付费音乐包</a></li>
+            <li><a href="##">全民K歌</a></li>
+            <li><a href="##">QQ演出</a></li>
+            <li><a href="##">Qplay</a></li>
+        </ul>
+    </div>
+</div>
+<div>
+    <ul class="second">
+        <li><img src="frame_logo_min.png"/></li>
+        <li class="secondhead">音乐馆</li>
+        <li>MV</li>
+        <li>我的音乐</li>
+        <li>下载客户端</li>
+        <li><input type="text" value="找到好的音乐" class="findmusic"/></li>
+    </ul>
+</div>
+<div>
+    <ul class="third">
+        <li>首页</li>
+        <li>排行榜</li>
+        <li>歌单广场</li>
+        <li>电台</li>
+        <li>歌手</li>
+        <li>独家首发</li>
+        <li>专辑</li>
+    </ul>
+    <div style="border: 1px solid gainsboro"></div>
+</div>
+<div class="content">
+    <div class="divleft">
+        <div class="one"><img src="big0920151219212911.jpg" alt=""/></div>
+        <div class="six"><h3>在线首发</h3><a href="##">/更多</a></div>
+        <div class="two">
+            <ul>
+                <li>
+                    <img src="003eXYxX36vd4M.jpg"/>
+
+                    <p class="green">中国之星 第五期</br><a>中国之星</a></p>
+                </li>
+                <li>
+                    <img src="002hshWB0Anvnj.jpg"/>
+
+                    <p class="green">唱游天下 第六期</br><a>唱游天下</a></p>
+                </li>
+                <li>
+                    <img src="002q7sod3V0WUk.jpg"/>
+
+                    <p class="green">和自己对话--感动推荐</br><a>林俊杰</a></p>
+                </li>
+                <li><img src="000Y9ZQY3B5fQf.jpg"/>
+
+                    <p class="green">诗歌之王 第二期</br><a>诗歌之王</a></p>
+                </li>
+                <li><img src="001BjfBN2Wc3LU.jpg"/>
+
+                    <p class="green">SHOW+1真人秀QQ</br><a>罗志祥</a></p>
+                </li>
+                <li><img src="001AMQBG3GzakR.jpg"/>
+
+                    <p class="green">我和我的布拉姆斯</br><a>蔡文佑</a></p>
+                </li>
+                <li><img src="004ACXND0bwf4M.jpg"/>
+
+                    <p class="green">SOMEONE</br><a>苏醒</a></p>
+                </li>
+                <li><img src="003vdDMf1debpm.jpg"/>
+
+                    <p>Royalty(DeluxeVersion)</br><a>Chri Brown</a></p>
+                </li>
+                <li><img src="001U2bFD2nSrCw.jpg"/>
+
+                    <p class="green">QQ音乐巅峰尊享会-温岚</br><a>温岚</a></p>
+                </li>
+                <li><img src="004fFWZw4PPJM1.jpg"/>
+
+                    <p class="green">三吉</br><a>刘润洁</a></p>
+                </li>
+            </ul>
+        </div>
+        <div class="three"><h3>MV首播</h3><a href="##">/更多</a></div>
+        <div class="four">
+            <ul>
+                <li>
+                    <img src="1450419559884081060.jpg"/>
+
+                    <p><a href="##" class="color:green;">Love&#160;Line</a> - 효린</p>
+
+                    <p>世界级制作团队作品</p>
+
+                    <p><span></span>24138 2015-12-14</p>
+                </li>
+                <li>
+                    <img src="1450411591969075110.jpg"/>
+
+                    <p><a href="##" class="color:green;">灵儿想叮当</a> - S.I.N.G 女团</p>
+
+                    <p>看人家怎么准备圣诞晚会</p>
+
+                    <p><span></span>24138 2015-12-14</p>
+                </li>
+                <li>
+                    <img src="1450402445530081060.jpg"/>
+
+                    <p><a href="##" class="color:green;">万万</a> - 万万天团</p>
+
+                    <p>《万万没想到》电影主题曲</p>
+
+                    <p><span></span>24138 2015-12-14</p>
+                </li>
+                <li>
+                    <img src="1450431762889033740.jpg"/>
+
+                    <p><a href="##" class="color:green;">モーニング娘</a></p>
+
+                    <p>冷风里的单相思</p>
+
+                    <p><span></span>24138 2015-12-14</p>
+                </li>
+                <li><img src="1450424214554081060.jpg"/>
+
+                    <p><a href="##" class="color:green;">Indigo </a>- 中島美嘉</p>
+
+                    <p>《インディゴの恋人》电视剧</p>
+
+                    <p><span></span>24138 2015-12-14</p>
+                <li><img src="1450423184668081060.jpg"/>
+
+                    <p><a href="##" class="color:green;">遗憾的艺术 </a>- 张栋梁</p>
+
+                    <p>遗憾是不必遮掩的美好</p>
+
+                    <p><span></span>24138 2015-12-14</p>
+                <li><img src="1450422213028081060.jpg"/>
+
+                    <p><a href="##" class="color:green;">Je&#160;Chante</a> - Mika</p>
+
+                    <p>乘着音乐去旅行</p>
+
+                    <p><span></span>24138 2015-12-14</p>
+                <li><img src="1450421331159081060.jpg"/>
+
+                    <p><a href="##" class="color:green;">Jet&#160;Black&#160;Heart - 5 ...</a></p>
+
+                    <p>让过去过去，让未来到来</p>
+
+                    <p><span></span>24138 2015-12-14</p>
+            </ul>
+        </div>
+        <div class="five">
+            <div class="five1head"><h1>最新推荐</h1><h6>华语 韩语 欧美</h6></div>
+            <div class="five1">
+                <ul>
+                    <a href="##">
+                        <li>只要有你的地方 (晚安版)--林俊杰</li>
+                        <li> 断片罗志祥</li>
+                        <li>让时间说爱 (铁达时广告主题曲)--古巨基</li>
+                        <li>苍苍张信哲</li>
+                        <li>花房姑娘 (《老炮儿》电影推广曲)--吴亦凡</li>
+                        <li>还记得吗 (深情弦乐版)--张韶涵</li>
+                        <li>一次幸福的机会 (原唱：潘越云)--萧敬腾</li>
+                        <li>总是那么傻--孙子涵</li>
+                        <li>不存在的你--乔任梁</li>
+                        <li>What a B*--何洁</li>
+                        <li>River Run--窦靖童</li>
+                        <li>混蛋，我想你--李宇春</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="five2head"><h1>最热推荐</h1></div>
+            <div class="five2">
+                <ul>
+                    <a href="##">
+                        <li>夏洛特烦恼 (《夏洛特烦恼》电影主题曲)--金志文</li>
+                        <li>新的心跳 (《极速前进 第二季》真人秀主题曲)G.E.M. --邓紫棋</li>
+                        <li>致爱 Your Song--鹿晗</li>
+                        <li>该死的懦弱 (国语)--胜屿</li>
+                        <li>流年啊 你奈我何--汪峰</li>
+                        <li> 红颜旧 (《琅琊榜》电视剧插曲)--刘涛</li>
+                        <li>陪你度过漫长岁月 (《陪安东尼度过漫长岁月》电影主题曲|《Sleep Alone》国语版)--陈奕迅</li>
+                        <li>一半--薛之谦</li>
+                        <li>Love With You ("2015我要上学 为爱进击1200助学行动"主题曲)--TFBOYS</li>
+                        <li>只要有你的地方 (《消失的爱人》电影主题曲)--林俊杰</li>
+                        <li>风起时 (《琅琊榜》电视剧主题曲)--胡歌</li>
+                        <li> 安心的温柔--杨</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <div class="eight"><h3>精选集</h3><a href="##">/更多</a></div>
+        <div class="nine">
+            <ul>
+                <li>
+                    <img src="003eXYxX36vd4M.jpg" class="nine1"/>
+
+                    <p class="green">MV精选</br><a>音乐抚慰青春之痛，追忆那时的蜜语甜言。</a></p>
+                </li>
+                <li>
+                    <img src="20151015175001.jpg"/>
+
+                    <p class="green">相恋跨越时空</p>
+                </li>
+                <li>
+                    <img src="20151015161200.jpg"/>
+
+                    <p class="green">一枝独秀更耀眼！</p>
+                </li>
+                <li>
+                    <img src="20151015161125.jpg"/>
+
+                    <p class="green">音乐和短裙最配</p>
+                </li>
+                <li>
+                    <img src="20151015160855.jpg"/>
+
+                    <p class="green">音乐时尚两不误</p>
+                </li>
+                <li>
+                    <img src="20151015161017.jpg"/>
+
+                    <p class="green">好的歌手会搞怪</p>
+                </li>
+                <li>
+                    <img src="20151015161055.jpg"/>
+
+                    <p class="green">静享一曲中国风</p>
+                </li>
+
+
+            </ul>
+        </div>
+    </div>
+    <div class="divright">
+        <div class="one">
+            <div class="onetopboth">
+                <div class="onetop"></div>
+                <div class="onemid"></div>
+            </div>
+            <div style="border:1px solid lightgray;width:222px;height: 0;position: relative;top:39px;left:23px"></div>
+            <div class="onebot"></div>
+        </div>
+        <div class="two">
+            <div class="two1"></div>
+            <div class="two2">
+                <ul>
+                    <li><a href="##">流行指数</a></li>
+                    <li><a href="##">内地 </a></li>
+                    <li><a href="##">港台</a></li>
+                    <li><a href="##">欧美</a></li>
+                    <li><a href="##">韩国</a></li>
+                </ul>
+            </div>
+            <div class="two3">
+                <div class="two3left">01</div>
+                <div class="two3mid"><img src="m-1.png" alt=""/></div>
+                <div class="two3right">
+                    <h3 style="color:#ff5400;font-size:18px">花房姑凉</h3>
+                    <h6>吴亦凡</h6>
+                </div>
+                <div class="two3word">
+                    <div>
+                        <div class="number">02</div>
+                        <div class="remember"><a href="##">还记得吗 (深情弦乐</a></div>
+                        <div class="name">张韶涵</div>
+                    </div>
+                    <div>
+                        <div class="number">03</div>
+                        <div class="remember"><a href="##">我喜欢你 (《恋爱...</a></div>
+                        <div class="name">派伟俊</div>
+                    </div>
+                    <div>
+                        <div class="number">04</div>
+                        <div class="remember"><a href="##">总是那么傻乐</a></div>
+                        <div class="name">孙子涵</div>
+                    </div>
+                    <div>
+                        <div class="number">05</div>
+                        <div class="remember"><a href="##">秋天不回来</a></div>
+                        <div class="name">王强</div>
+                    </div>
+                    <div>
+                        <div class="number">06</div>
+                        <div class="remember"><a href="##">让时间说爱 (铁达..</a></div>
+                        <div class="name">古巨基</div>
+                    </div>
+                    <div>
+                        <div class="number">07</div>
+                        <div class="remember"><a href="##">好心分手</a></div>
+                        <div class="name">王力宏</div>
+                    </div>
+                    <div>
+                        <div class="number">08</div>
+                        <div class="remember"><a href="##">死不回头</a></div>
+                        <div class="name">崔健</div>
+                    </div>
+                    <div>
+                        <div class="number">09</div>
+                        <div class="remember"><a href="##">自由 (Live)</a></div>
+                        <div class="name">许志安</div>
+                    </div>
+                    <div>
+                        <div class="number">10</div>
+                        <div class="remember"><a href="##">哎</a></div>
+                        <div class="name">庄心妍</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="position:absolute; font-size:10px;display: inline">
+        <div style="border-bottom: 1px dashed gray;position: relative;right: 361px;top: 663px;"></div>
+        <div style="width: 66px;height: 60px;position: relative;top:671px;right:356px;line-height:21px;text-align:center;letter-spacing:1px;cursor: pointer">
+            <ul>
+                <li style="list-style: none">iTunes榜</li>
+                <li style="list-style: none">香港新城榜</li>
+                <li style="list-style: none">英国UK榜</li>
+            </ul>
+        </div>
+        <div style=" width: 66px;height: 60px;list-style: none;position: relative;top:610px;right:277px;line-height:21px;text-align:center;letter-spacing:1px;cursor: pointer">
+            <ul>
+                <li style="list-style: none">美国公告牌</li>
+                <li style="list-style: none">日本公信榜</li>
+                <li style="list-style: none">香港电台榜</li>
+            </ul>
+        </div>
+        <div style=" width: 66px;height: 60px;list-style: none;position: relative;top:549px;right:198px;line-height:21px;text-align:center;letter-spacing:1px;cursor: pointer">
+            <ul>
+                <li style="list-style: none">英国UK榜</li>
+                <li style="list-style: none">韩国MNET</li>
+                <li style="list-style: none">MTV光荣榜</li>
+            </ul>
+        </div>
+        <div style="border-bottom: 1px solid gray;position: relative;right: 361px;top: 600px;"></div>
+        <div style="width: 222px;height: 165px;position:relative;top: 659px;right: 360px;position: relative">
+            <div style="position:absolute;top:0;left:0;"><img src="001fNHEf1SFEFN.jpg"
+                                                              style="width: 50px; height: 50px;"/>
+
+                <p>邓紫棋</p></div>
+            <div style="position:absolute;top:0;left:80px;"><img src="0025NhlN2yWrP4.jpg"
+                                                                 style="width: 50px; height: 50px;"/>
+
+                <p>周杰伦</p></div>
+            <div style="position:absolute;top:0;left:160px;"><img src="004AlfUb0cVkN1.jpg"
+                                                                  style="width: 50px; height: 50px;"/>
+
+                <p>BIGBANG </p></div>
+            <div style="position:absolute;top:98px;left:0;"><img src="003Nz2So3XXYek.jpg"
+                                                                 style="width: 50px; height: 50px;"/>
+
+                <p>陈奕迅 </p></div>
+            <div style="position:absolute;top:98px;left:80px;"><img src="001BLpXF2DyJe2.jpg"
+                                                                    style="width: 50px; height: 50px;"/>
+
+                <p>林俊杰 </p></div>
+            <div style="position:absolute;top:98px;left:160px;">
+                <img src="001SqkF53OEhdO.jpg" style="width: 50px; height: 50px;"/>
+
+                <p>鹿晗 </p></div>
+        </div>
+        <div class="three"
+             style="width:115px;border:1px solid black;margin-left:-100px;height:409px;position: fixed;top:118px;">
+            <div style="height:20px"><img src="A_03.png" style="position: fixed;right: 43px"/></div>
+            <div style="height: 170px;background-color: white;line-height: 40px">
+                <ul id="last" style="padding-left: 10px">下载客户端
+                    <li style="background-position:10px 0"><a href="##" style="padding-left: 40px">PC版</a></li>
+                    <li style="background-position:10px -71px"><a href="##" style="padding-left:40px">Mac版</a></li>
+                    <li style="background-position:10px -140px"><a href="##" style="padding-left:40px">iphone版</a></li>
+                    <li style="background-position:10px -210px"><a href="##" style="padding-left:40px">android版</a></li>
+                </ul>
+            </div>
+            <div style="height:150px;line-height: 30px;text-align: center;border-top: 1px solid grey;border-bottom: 1px solid grey;padding: 10px 0">
+                <img src="qrcode_qqmusic.jpg"/>
+
+                <p style="margin: 0 5px">关注QQ音乐微信
+                    精彩内容同分享</p>
+            </div>
+            <div style="height: 65px;text-align: center;margin-top: 5px">
+                <p>QQ音乐新浪微博 </p>
+                <input type="button" value="加关注"/>
+            </div>
+        </div>
+        <div style="position:fixed;top:300px;right: -4px"><a href="##"><img src="A_21.png"/></a></div>
+        <div style="position:relative;top:455px;width: 222px;height: 30px;left: -360px">
+            <h4>热门歌手</h4><a href="##" style="float: right;margin: -13px 129px 0  0;">/更多</a>
+        </div>
+        <div style="border-bottom: 1px dashed gray;position: relative;right: 361px;top: 672px;"></div>
+
+        <div style="width: 66px;height: 60px;position: relative;top:695px;right:356px;line-height:21px;text-align:center;letter-spacing:1px;cursor: pointer">
+            <ul>
+                <li style="list-style: none">华语男歌手</li>
+                <li style="list-style: none">韩国男歌手</li>
+                <li style="list-style: none">日本男歌手</li>
+                <li style="list-style: none">欧美男歌手</li>
+            </ul>
+        </div>
+        <div style=" width: 66px;height: 60px;list-style: none;position: relative;top:635px;right:277px;line-height:21px;text-align:center;letter-spacing:1px;cursor: pointer">
+            <ul>
+                <li style="list-style: none">华语女歌手</li>
+                <li style="list-style: none">韩国女歌手</li>
+                <li style="list-style: none">日本女歌手</li>
+                <li style="list-style: none">欧美女歌手</li>
+            </ul>
+        </div>
+        <div style=" width: 66px;height: 60px;list-style: none;position: relative;top:574px;right:198px;line-height:21px;text-align:center;letter-spacing:1px;cursor: pointer">
+            <ul>
+                <li style="list-style: none">华语组合</li>
+                <li style="list-style: none">韩国组合</li>
+                <li style="list-style: none">日本组合</li>
+                <li style="list-style: none">欧美组合</li>
+            </ul>
+        </div>
+        <div style="border-bottom: 1px solid gray;position: relative;right: 361px;top: 621px;"></div>
+        <div style="border: 1px solid white;position: relative;right: 361px;top: 631px;"><h1>精彩活动</h1></div>
+        <div style="border: 1px solid white;position: relative;right: 361px;top: 651px;"><img src="20151218205820.jpg"/>
+        </div>
+        <div style="border: 1px solid white;position: relative;right: 361px;top: 651px;"><a href="##">[精彩活动]罗志祥演唱会</a>
+        </div>
+        <div style="border: 1px solid white;position: relative;right: 361px;top: 659px;"><img src="20151216172341.jpg"/>
+        </div>
+        <div style="border: 1px solid white;position: relative;right: 361px;top: 661px;"><a href="##">[精彩活动] 温岚尊享会回顾</a>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

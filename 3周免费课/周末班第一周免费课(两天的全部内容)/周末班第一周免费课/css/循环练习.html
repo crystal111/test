@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<ul id="boss">
+    <li>aaaaaaaaaaaaaaaaaaaaaaaaaaa</li>
+    <li>ccccccccccccccccccccccccccc</li>
+    <li>yyyyyyyyyyyyyyyyyyyyyyyy</li>
+    <li>yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy</li>
+    <li>aaaaaaaaaaaaaaaaaaaaaaaaaaa</li>
+    <li>ccccccccccccccccccccccccccc</li>
+    <li>yyyyyyyyyyyyyyyyyyyyyyyy</li>
+    <li>yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy</li>
+</ul>
+</body>
+</html>
+<script>
+    var oUl=document.getElementById("boss")
+    var oLis=oUl.getElementsByTagName("li")
+   for(var i= 0;i<oLis.length;i++){
+     if(i%4==0){
+         oLis[i].style.backgroundColor="red";
+     }else if(i%4==1){
+         oLis[i].style.backgroundColor="orange";
+     }else if(i%4==2){
+         oLis[i].style.backgroundColor="pink";
+       } else if(i%4==3){
+         oLis[i].style.backgroundColor="yellow";
+     }else{
+         none
+     }
+      oLis.item(i).style.listStyle="none";
+
+   }
+
+</script>

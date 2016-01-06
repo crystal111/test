@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<ul id="list">
+    <li>qqqqqqqqqqqqqqqqqqqqqqqqqqqqqq</li>
+    <li>ssssssssssssssssssssssssssssss</li>
+    <li>vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv</li>
+    <li>qqqqqqqqqqqqqqqqqqqqqqqqqqqqqq</li>
+    <li>ssssssssssssssssssssssssssssss</li>
+    <li>vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv</li>
+    <li>qqqqqqqqqqqqqqqqqqqqqqqqqqqqqq</li>
+    <li>ssssssssssssssssssssssssssssss</li>
+    <li>vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv</li>
+</ul>
+
+</body>
+</html>
+<script type="text/javascript">
+    var oUl = document.getElementById("list");
+    var oLis = oUl.getElementsByTagName("li");
+
+    for (var i = 0; i < oLis.length; i++) {
+
+        if (i % 3==0) {
+            oLis[i].style.backgroundColor = "black";
+
+
+        }
+        else if (i%3==1) {
+            oLis[i].style.backgroundColor = "pink";}
+        else {
+            oLis[i].style.backgroundColor = "red";
+        }
+        oLis[i].style.listStyle = "none";
+        oLis[i].style.margin = "10px 0";
+    }
+
+
+</script>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        body ul li{
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        #ul1 {
+            list-style: none;
+            width: 50%;
+            margin: 50px auto;
+            border: 1px solid black;
+        }
+
+        .c0 {
+            background-color: blue;
+
+        }
+
+        .c1 {
+            background-color: orangered;
+        }
+    </style>
+</head>
+<body>
+<ul id="ul1">
+    <li >11111111111111111111111111111111</li>
+    <li >11111111111111111111111111111111</li>
+    <li>11111111111111111111111111111111</li>
+    <li>11111111111111111111111111111111</li>
+    <li>11111111111111111111111111111111</li>
+    <li>11111111111111111111111111111111</li>
+    <li>11111111111111111111111111111111</li>
+    <li>11111111111111111111111111111111</li>
+    <li>11111111111111111111111111111111</li>
+    <li>11111111111111111111111111111111</li>
+</ul>
+<script type="text/javascript">
+    var ul = document.getElementById("ul1");
+    var oLis = oUl1.getElementsByTagName("li");
+   /* for (var i = 0; i < olis.length; i++) {
+            olis[i].className = "c" + i % 2}*/
+    for (var i = 0; i < oLis.length; i++){
+        if(i%2===0){
+            oLis[i].className="c0";
+        }else{
+            olis[i].className="c1";
+        }
+    }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            list-style: none;
+            width: 200px;
+            border:1px solid #ccc;
+        }
+        ul li{
+            height: 60px;
+            line-height: 60px;
+            text-align: center;
+        }
+        ul li a{
+            display: block;
+            color: red;
+            text-decoration: none;
+            position: relative;/*参照物*/
+            border:1px solid #fff;
+        }
+        ul li a span{
+            display: none;
+        }
+        ul li a p{
+            display: none; /*隐藏*/
+        }
+
+        ul li a:hover{
+            border:1px solid red;
+        }
+        ul li a:hover span{
+            position: absolute;
+            top:20px;
+            display: block; /*1.设置成块状元素,2.显示*/
+            width: 0;
+            height: 0;
+            border:10px solid red;
+            border-color: transparent transparent transparent red;
+        }
+        ul li a:hover span.sLeft{
+            left: 10px;
+        }
+        ul li a:hover span.sRight{
+            border-color:transparent red  transparent transparent;
+            right: 10px;
+        }
+        ul li a:hover p{
+            display: block;/*显示*/
+            width: 130px;
+            height: 60px;
+            line-height: 60px;
+            color: #fff;
+            text-align: center;
+            background: #ccc;
+            position: absolute;
+            right:-150px;
+            top:0;
+        }
+    </style>
+</head>
+<body>
+<ul>
+    <li><a href="##"> <span class="sLeft"></span><span class="sRight"></span><p>这里是什么菜单</p>首页</a></li>
+    <li><a href="##" class="current"> <span class="sLeft"></span>特色培训<span class="sRight"></span><p>这里是什么菜单</p></a></li>
+    <li><a href="##"><span class="sLeft"></span><span class="sRight"></span><p>这里是什么菜单</p> 热点课程</a></li>
+    <li><a href="##"> <span class="sLeft"></span><span class="sRight"></span><p>这里是什么菜单</p>网站开发课程</a></li>
+    <li><a href="##"> <span class="sLeft"></span><span class="sRight"></span><p>这里是什么菜单</p>联系我们</a></li>
+</ul>
+</body>
+</html>

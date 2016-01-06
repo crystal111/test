@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        body, div, ul, li {
+            padding: 0;
+            margin: 0;
+            font-family: "Microsoft Yahei";
+            font-size: 18px;
+        }
+
+        ul li {
+            list-style: none;
+        }
+
+        #tab {
+            margin: 10px auto;
+            width: 500px;
+        }
+
+        #tab ul li {
+            width: 100px;
+            height: 35px;
+            line-height: 35px;
+            border: 1px solid red;
+            display: inline-block;
+        }
+
+        #tab ul li.select {
+            background-color: green;
+        }
+
+        #tab div {
+            height: 100px;
+            border: 1px solid black;
+            display: none;
+        }
+
+        #tab div.select {
+            display: block;
+            background-color: green;
+        }
+
+    </style>
+</head>
+<body>
+<div id="tab">
+    <ul>
+        <li class="select">电影</li>
+        <li>电视剧</li>
+        <li>卡通</li>
+    </ul>
+
+    <div class="select">《成魔的羔羊》</div>
+    <div>《芈月传》</div>
+    <div>《喜羊羊与灰太狼》</div>
+</div>
+</body>
+</html>
+<script type="text/javascript">
+    var oTab=document.getElementById("tab");
+    var oLis=oTab.getElementsByTagName("li");
+    var oDivs=oTab.getElementsByTagName("div");
+    function tabChange(nIndex){
+        for(var i=0;i<oLis.length;i++){
+        oLis[i].className=null;
+        oDivs[i].className=null;
+        }
+        oLis[nIndex].className="select";
+        oDivs[nIndex].className="select";
+    }
+    for(var i=0;i<oLis.length;i++){
+        oLis[i].a=i;
+        oLis[i].onclick=function(){
+          tabChange(this.a)
+        }
+    }
+
+</script>

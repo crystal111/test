@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        body, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul, li {
+            list-style: none;
+        }
+
+        #ul1 {
+            margin: 10px auto;
+            padding: 20px;
+            width: 50%;
+            border: 1px solid black;
+        }
+
+        #ul1 li {
+            height: 35px;
+            line-height: 35px;
+        }
+
+        #ul1 li.bg0 {
+            background: red;
+        }
+        #ul1 li.bg1{
+            background: deepskyblue;
+        }
+        #ul1 li.bg2 {
+            background: yellowgreen;
+        }
+
+        #ul li：hover {
+            background:black;
+        }
+    </style>
+</head>
+<body>
+<ul id="ul1">
+    <li class="bg0">开心开心开心开心开心开心开心开心开心开心开心开心</li>
+    <li class="bg1">开心开心开心开心开心开心开心开心开心开心开心开心</li>
+    <li class="bg2">开心开心开心开心开心开心开心开心开心开心开心开心</li>
+    <li>开心开心开心开心开心开心开心开心开心开心开心开心</li>
+    <li>开心开心开心开心开心开心开心开心开心开心开心开心</li>
+    <li>开心开心开心开心开心开心开心开心开心开心开心开心</li>
+    <li>开心开心开心开心开心开心开心开心开心开心开心开心</li>
+    <li>开心开心开心开心开心开心开心开心开心开心开心开心</li>
+    <li>开心开心开心开心开心开心开心开心开心开心开心开心</li>
+    <li>开心开心开心开心开心开心开心开心开心开心开心开心</li>
+</ul>
+</body>
+</html>
+    <script type="text/javascript">
+    var oUl = document.getElementById("ul1");
+    var oLis = oUl.getElementsByTagName("li");
+    for (var i = 0; i < oLis.length; i++) {
+        oLis[i].className = "bg" + i % 3;
+        oLis[i].oldClass = oLis[i].className;
+        oLis[i].onmouseover = function () {
+            this.className = "hover";
+        };
+        oLis[i].onmouseout = function () {
+            this.className = this.oldClass;
+        };
+    }
+</script>

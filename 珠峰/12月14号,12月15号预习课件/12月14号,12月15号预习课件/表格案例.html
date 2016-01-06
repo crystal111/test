@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>表格案例</title>
+    <style type="text/css">
+        .box{
+            width: 400px;
+        }
+        .box table{
+            border-collapse: collapse; /*单元格的边框线合并*/
+        }
+        .box table th{
+            background: papayawhip;
+            height: 40px;
+            border-right: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+        }
+        .box .noBorder{
+            border-right: 0;
+        }
+        .box table caption{
+            background: paleturquoise;
+            color: #fff;
+            height: 30px;
+            line-height: 30px;
+        }
+        .box table td{
+            border-right: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+            text-align: center;
+            height: 30px;
+            line-height: 30px;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <table width="100%">
+        <caption>4008-207-988</caption>
+        <thead>
+            <tr>
+                <th>摔碰管修1年</th>
+                <th>延长保修2年</th>
+                <th class="noBorder">延长保修3年</th>
+            </tr>
+            <tr>
+                <th>XX保修一年</th>
+                <th>XX延长二年保修</th>
+                <th  class="noBorder">XXX延长三年保修</th>
+            </tr>
+
+        </thead>
+        <tbody>
+                <tr>
+                    <td colspan="2">2014.3.4-至今</td>
+                    <td class="noBorder">2013.9.4-至今</td>
+                </tr>
+                <tr>
+                    <td>有</td>
+                    <td>有</td>
+                    <td class="noBorder">有</td>
+                </tr>
+        </tbody>
+
+
+
+    </table>
+
+</div>
+
+</body>
+</html>

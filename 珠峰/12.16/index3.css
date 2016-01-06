@@ -1,0 +1,36 @@
+.layout{
+    width: 800px;
+}
+.header,.content,.footer{
+    background:paleturquoise;
+    border:1px dashed yellow;
+    margin: 20px 0;
+}
+.content{
+    overflow: hidden;
+}
+.leftContent{
+    width: 200px;
+    float: left;
+    background: pink;
+    margin: 0 10px;
+}
+.midContent{
+    width: 358px;
+    float: left;
+    background: palevioletred;
+}
+.rightContent{
+    width: 200px;
+    float: left;
+    background: peru;
+    margin: 0 10px;
+}
+.leftBar1,.leftBar2,.midBar1,.midBar2,.rightBar1,.rightBar2{
+    background: green;
+    border:1px dashed yellow;
+    height: 100px;
+    margin: 10px 0;
+}
+
+

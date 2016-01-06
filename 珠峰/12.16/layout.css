@@ -1,0 +1,33 @@
+.layout{
+    width: 800px;
+}
+.header,.footer,.content{
+    border:1px dashed yellow;
+    background: paleturquoise;
+    margin: 20px 0;
+}
+.content{
+
+    position:relative;
+}
+.sideBar{
+    width: 560px;
+    background: papayawhip;
+
+}
+.pageContent{
+    width: 200px;
+    /*background: pink;*/
+    position: absolute;
+    right: 10px;
+    top:0px
+
+}
+.sideBar1,.sideBar2,.pageContent1,.pageContent2{
+    background: green;
+    border:1px dashed yellow;
+    margin: 20px 0;
+}
+.pageContent2{
+    height: 600px;
+}

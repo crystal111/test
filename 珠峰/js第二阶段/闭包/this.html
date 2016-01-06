@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+</body>
+</html>
+<script type="text/javascript">
+    var i=9;
+    function fo(){
+        var i=0;
+        return function(n){
+            /*return n+i++;*/
+            /*return  n+++i;*///15;15;20;20;20;200;
+            return n+(++i);
+
+        }
+    }
+    var f=fo();
+    var a=f(15);alert(a);//15
+    var b=fo()(15);alert(b);//15
+    var c=fo()(20);alert(c);//20
+    var d=f(20);alert(d);//21
+    var r=f(20);alert(r);//22
+    var e=fo()(200);alert(e);//200
+
+</script>

@@ -1,0 +1,101 @@
+.clearfix:before,.clearfix:after{
+    clear: both;
+    display: block;
+    overflow: visible;
+    content: "";
+}
+.clearfix{
+    zoom: 1;
+}
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #f7f7f7;
+}
+ul{
+    list-style: none;
+}
+.topNav{
+    background-color: #000;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    font-size: 12px;
+    font-family: "Microsoft Yahei";
+}
+.topNav .ulNav{
+    float: left;
+}
+.topNav .new{
+    float: left;
+    padding: 0 5px;
+    background: #ff7b00;
+    border-radius: 3px;/*css3属性圆角*/
+    line-height: 22px;
+    margin-top: 6px;
+}
+.topNav .nav{
+    float: left;
+    padding: 0 25px 0 10px;
+    position: relative;/*参照物*/
+}
+.topNav .nav span{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border:5px solid #fff;
+    border-color: #fff transparent transparent transparent;
+    top:15px;
+    right: 15px;
+}
+.topNav .nav:hover{
+    background: #fff;
+    color: #000;
+}
+.topNav .nav:hover span{
+    border-color: #000 transparent transparent transparent;
+}
+
+.topNav .nav:hover ul{
+    display: block;
+}
+/*滑过部分*/
+.nav ul{
+    width: 106px;
+    padding: 0 10px;
+    background: #fff;
+    position: absolute;
+    left:0;
+    top:33px;
+    display: none;
+}
+.nav ul li{
+    border-bottom:1px solid #f7f7f7;
+    padding: 1px 0 2px 0;
+
+}
+.nav ul li a{
+    display: block;
+    background: url(images/360icon.png) no-repeat 0 0 ;
+    text-decoration: none;
+    text-align: center;
+    color: #878a99;
+}
+.nav ul li a.one{
+    background-position:6px 10px ;
+}
+.nav ul li a.two{
+    background-position:6px -34px;
+}
+
+.nav ul li a.three{
+    background-position:6px -76px;
+}
+.nav ul li a.four{
+    background-position:6px -116px;
+}
+.nav ul li a:hover{
+    background-color: #e7e7e7;
+}

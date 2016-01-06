@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>冒泡冒泡</title>
+</head>
+<body>
+
+</body>
+</html>
+<script type="text/javascript">
+    var ary=[2222,1,4444444,5,666666,111];
+    function arysort(ary){
+        for(var i=0;i<ary.length-1;i++){
+            for(var j=0;j<ary.length-1-i;j++){
+                if(ary[j]>ary[j+1]){
+                    temp=ary[j];
+                    ary[j]=ary[j+1];
+                    ary[j+1]=temp;
+                }
+            }
+        }
+    }
+    arysort(ary);
+    console.log(ary);
+</script>

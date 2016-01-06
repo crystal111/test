@@ -1,0 +1,10 @@
+网页的结构-html
+网页的表现形式-css
+网页的行为 -javascript
+ 1.块状元素和行内元素的区别?
+ 2.浮动闭合的解决办法?
+ 3.absolute relative fixed的区别
+ 4.怎样布局使两个盒子的高度一直相等?(margin负值)
+ECMAScript--js最核心的部分
+DOM --文档对象模型
+BOM  --浏览器对象模型

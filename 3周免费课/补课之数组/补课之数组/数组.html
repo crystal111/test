@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>数组</title>
+</head>
+<body>
+<script>
+    var obj = {"name":"lily",age:18,gender:true,fn:function(){},0:"aa",1:"bb"};
+   var obj1= {0:"a",1:"b",2:"c"};
+    //数组的定义方式
+    var ary = [];//字面量的方式
+    var ary = new Array(); //创建实例的方式
+    //数组和对象一样也是由属性名和属性值组成的
+    var ary = [1,2,3,4,5,6];//数组的每一项都表示属性值,在数组这边我们把它的属性名称为索引
+   // var ary1 = {0:1,1:2,2:3}
+    //console.log(ary[1])
+    console.dir(ary);
+    //ary.length //表示数组的个数
+    for(var attr in ary){
+        console.log("属性名:"+attr+"属性值:"+ary[attr]);
+    }
+    for(var i = 0;i<ary.length;i++){
+        console.log(ary[i])
+    }
+</script>
+</body>
+</html>

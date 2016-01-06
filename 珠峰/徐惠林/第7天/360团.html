@@ -1,0 +1,87 @@
+<html><head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+
+        .clearfix:before,.clearfix:after{
+            clear: both;
+            display: block;
+            overflow: visible;
+            content: "";
+        }
+        .clearfix{
+            zoom: 1;
+        }/*兼容所有浏览器*/
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #f7f7f7;
+        }
+        ul{
+            list-style: none;
+        }
+
+        .topNav{
+            background-color: #000;
+            height: 35px;
+            line-height: 35px;
+            color: #fff;
+            font-size: 12px;
+            font-family: "Microsoft Yahei", Arial, SimSun;
+        }
+        .topNav ul{
+            float: left;
+        }
+        .topNav .new{
+            float: left;
+            padding: 0 5px;
+            background: #ff7b00;
+            border-radius: 3px;/*css3属性圆角*/
+            line-height: 22px;
+            margin-top: 6px;
+        }
+        .topNav .nav{
+            padding: 0 25px 0 10px;
+            float: left;
+            position: relative;
+        }
+        .topNav .nav span{
+            position: absolute;
+            display: inline-block;
+            width: 0;
+            height: 0;
+            border: 5px solid #fff;
+            border-color: #fff transparent transparent transparent;
+            top: 15px;
+            right: 15px;
+        }
+        /*.topNav ul li a{*/
+        /*float: left;*/
+        /*text-decoration: none;*/
+        /*color: #fff;*/
+        /*}*/
+        .topNav ul li.current{
+            background: #fff;
+            color: #000;
+        }
+        .topNav .nav.current span{
+
+        }
+    </style>
+
+</head>
+<body>
+<div class="topNav">
+    <ul class="clearfix">
+        <li class="nav">首页</li>
+        <li class="nav current">快捷入口<span></span>
+        </li>
+        <li class="nav">在线服务<span></span></li>
+        <li class="nav">收藏本站<span></span></li>
+    </ul>
+    <span class="new">[新手上路]三步拿返利</span>
+</div>
+</body>
+</html>

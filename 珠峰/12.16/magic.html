@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        .layout{
+            width: 800px;
+        }
+        .content{
+            border:1px solid yellow;
+            background: paleturquoise;
+            overflow: hidden;
+        }
+        .left{
+            background: pink;
+            width: 560px;
+            float: left;
+            margin-left: 10px;
+        }
+        .right{
+            background: palevioletred;
+            width: 200px;
+            float: right;
+            margin-right: 10px;
+        }
+        .top{
+            background: orange;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+        .bot{
+            background: green;
+            border:1px dashed yellow;
+        }
+        .topLeft{
+            background: green;
+            float: left;
+            width: 273px;
+            border:1px dashed yellow;
+            margin-right: 10px;
+        }
+        .topRight{
+            background: green;
+            float: left;
+            width: 273px;
+            border:1px dashed yellow;
+        }
+        .rightTop,.rightMid,.rightBot{
+            border:1px dashed yellow;
+            background: green;
+            height: 100px;
+            margin: 10px 0;
+
+        }
+    </style>
+</head>
+<body>
+<div class="layout">
+
+    <div class="content">
+        <div class="left">
+            <div class="top">
+                <div class="topLeft" style="height: 50px">topLeft</div>
+                <div class="topRight" style="height: 100px">topRight</div>
+
+            </div>
+            <div class="bot" style="height: 200px">22222222</div>
+        </div>
+        <div class="right">
+            <div class="rightTop">rightTop</div>
+            <div class="rightMid">rightMid</div>
+            <div class="rightBot">rightBot</div>
+        </div>
+
+    </div>
+
+
+
+</div>
+
+</body>
+</html>

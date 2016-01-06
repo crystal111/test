@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    function sum() {
+        var total = null;
+        for (var i = 0; i < arguments.length; i++) {
+           /* if (!isNaN(arguments[i])) {
+                total += arguments[i];
+            }*/
+            ! isNaN(arguments[i])?total +=arguments[i]:null;
+        }
+        return total;
+    }
+    console.log(sum(1000000, 400000, "zhufeng", 50))
+
+
+</script>
+</body>
+</html>

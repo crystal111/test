@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        #div1{
+            font-size: 30px;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="div1">欢迎你们来到珠峰培训!!!!!!!</div>
+</body>
+</html>
+<script>
+    //window.document.getElementById("div1");
+    //window表示浏览器
+    //document表示文档 --浏览器打开的一个网页
+    //.从属的关系
+    //window document都是浏览器内置对象(天生就有的,可以直接拿过来用)
+    //document.documentElement //html元素
+    //document.body //body元素
+    //document.getElementById("div1").style.color = "red"; //相当于通过行内样式的方式给这个元素设置样式
+    document.getElementById("div1").style.fontSize = "20px";
+    document.getElementById("div1").style.backgroundColor="pink";
+    document.getElementById("div1").innerText="张耀文是个好人";
+    document.getElementById('div1').innerHTML ="<a href='http://www.baidu.com'>刘冠忠是个.....</a>";
+    //console.log(document.getElementById('div1').style.fontSize);
+    //innerHTML 可以识别标签
+    //innerText 不可以识别标签,会把标签还是当成普通的文本
+    //什么是js表达式?
+    //可以完成一个独立的功能,或者一个独立的脚本就叫js表达式
+
+</script>

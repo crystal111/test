@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>动态伪类选择器</title>
+    <!--
+    :link 默认的样式 仅仅针对于a标签
+    :hover 划过时触发
+    :active 点击时触发
+    :visited 访问过后触发
+
+    -->
+    <style type="text/css">
+       a:link{  /*对a标签设置默认样式的*/
+           color: yellow;
+            text-decoration: none;
+        }
+       a:hover{  /*交集选择器的写法*/
+           color: blue;
+       }
+        a:active{
+            color: red;
+        }
+
+        /*a:visited{  *//*点击后才表示访问过*/
+            /*color: red;*/
+        /*}*/
+        /*
+         /* span:link{*//*所有浏览器都不支持*//*
+
+          }
+        span:hover{ *//*ie6不兼容,其他浏览器都兼容*//*
+            color: red;
+        }
+        span:active{ *//*ie8及ie8以上兼容*//*
+            color: blue;
+        }
+        span:visited{ *//*所有浏览器都不支持*//*
+            background: gold;
+        }*/
+
+    </style>
+</head>
+<body>
+<a href="##">首页</a>
+<a href="##">公司简介</a>
+<a href="##">产品介绍</a>
+<span>公司地址</span>
+</body>
+</html>

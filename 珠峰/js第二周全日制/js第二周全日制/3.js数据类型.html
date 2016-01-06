@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<!--js是弱类型的语言,它的特征是什么?
+    在声明一个变量的时候,并不知道它是类型的数据,只有在赋值后才能知道是什么数据类型?
+    js数据类型:
+    number,string,Boolean,object,function,null,undefined
+    基本数据类型 : number,string ,Boolean
+    引用数据类型 : object (Array,RegExp,Math,Date)
+    特殊类型 : function
+    标示型数据类型 :undefined
+    标示型的数据 :null
+-->
+<script>
+    var u;
+    var n = 123;
+    var s = "abc";
+    var b = true;
+    var fn = function(){};
+    var arr = [];
+    var reg = /^[1-9]$/;
+    var o = {};
+    var c = null;
+
+    //typeof :用来检测具体是什么数据类型的
+    //typeof的返回值:首先返回的是一个字符串,字符串里包含了返回的数据类型的信息
+    //console.log(typeof c );
+    //instanceof 用来检测某个实例是属于哪个类的
+    console.log(reg instanceof  RegExp);
+
+
+</script>
+
+</body>
+</html>

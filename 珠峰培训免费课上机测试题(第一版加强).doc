@@ -1,0 +1,1376 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 14">
+<meta name=Originator content="Microsoft Word 14">
+<link rel=File-List href="珠峰培训免费课上机测试题(第一版加强).files/filelist.xml">
+<title>珠峰培训js免费课考试题(加强版)，题目稍微加大难度，请认真作答~</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>shareme</o:Author>
+  <o:LastAuthor>shareme</o:LastAuthor>
+  <o:Revision>3</o:Revision>
+  <o:TotalTime>56</o:TotalTime>
+  <o:Created>2016-01-05T15:12:00Z</o:Created>
+  <o:LastSaved>2016-01-05T16:08:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>496</o:Words>
+  <o:Characters>2831</o:Characters>
+  <o:Lines>23</o:Lines>
+  <o:Paragraphs>6</o:Paragraphs>
+  <o:CharactersWithSpaces>3321</o:CharactersWithSpaces>
+  <o:Version>14.00</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<link rel=themeData href="珠峰培训免费课上机测试题(第一版加强).files/themedata.thmx">
+<link rel=colorSchemeMapping
+href="珠峰培训免费课上机测试题(第一版加强).files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:DrawingGridVerticalSpacing>7.8 磅</w:DrawingGridVerticalSpacing>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>2</w:DisplayVerticalDrawingGridEvery>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>ZH-CN</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="false" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="267">
+  <w:LsdException Locked="false" UnhideWhenUsed="false" QFormat="true"
+   Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" UnhideWhenUsed="false"
+   QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" UnhideWhenUsed="false"
+   QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" UnhideWhenUsed="false"
+   QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" UnhideWhenUsed="false"
+   QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" UnhideWhenUsed="false"
+   QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" UnhideWhenUsed="false"
+   QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true" QFormat="true"
+   Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true" QFormat="true"
+   Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true" QFormat="true"
+   Name="heading 9"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="index 1"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="index 2"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="index 3"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="index 4"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="index 5"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="index 6"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="index 7"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="index 8"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="index 9"/>
+  <w:LsdException Locked="false" Priority="39" UnhideWhenUsed="false"
+   Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" UnhideWhenUsed="false"
+   Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" UnhideWhenUsed="false"
+   Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" UnhideWhenUsed="false"
+   Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" UnhideWhenUsed="false"
+   Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" UnhideWhenUsed="false"
+   Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" UnhideWhenUsed="false"
+   Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" UnhideWhenUsed="false"
+   Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" UnhideWhenUsed="false"
+   Name="toc 9"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Normal Indent"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="footnote text"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="annotation text"/>
+  <w:LsdException Locked="false" Priority="0" UnhideWhenUsed="false"
+   Name="header"/>
+  <w:LsdException Locked="false" Priority="0" UnhideWhenUsed="false"
+   Name="footer"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="index heading"/>
+  <w:LsdException Locked="false" Priority="35" SemiHidden="true" QFormat="true"
+   Name="caption"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="table of figures"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="envelope address"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="envelope return"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false"
+   Name="footnote reference"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false"
+   Name="annotation reference"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="line number"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="page number"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="endnote reference"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="endnote text"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false"
+   Name="table of authorities"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="macro"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="toa heading"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="List"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="List Bullet"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="List Number"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="List 2"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="List 3"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="List 4"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="List 5"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="List Bullet 2"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="List Bullet 3"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="List Bullet 4"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="List Bullet 5"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="List Number 2"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="List Number 3"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="List Number 4"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="List Number 5"/>
+  <w:LsdException Locked="false" Priority="10" UnhideWhenUsed="false"
+   QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Closing"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Signature"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Body Text"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Body Text Indent"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="List Continue"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="List Continue 2"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="List Continue 3"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="List Continue 4"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="List Continue 5"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Message Header"/>
+  <w:LsdException Locked="false" Priority="11" UnhideWhenUsed="false"
+   QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Salutation"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Date"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false"
+   Name="Body Text First Indent"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false"
+   Name="Body Text First Indent 2"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Note Heading"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Body Text 2"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Body Text 3"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false"
+   Name="Body Text Indent 2"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false"
+   Name="Body Text Indent 3"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Block Text"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Hyperlink"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="FollowedHyperlink"/>
+  <w:LsdException Locked="false" Priority="22" UnhideWhenUsed="false"
+   QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" UnhideWhenUsed="false"
+   QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Document Map"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Plain Text"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="E-mail Signature"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="HTML Top of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="HTML Bottom of Form"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Normal (Web)"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="HTML Acronym"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="HTML Address"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="HTML Cite"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="HTML Code"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="HTML Definition"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="HTML Keyboard"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="HTML Preformatted"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="HTML Sample"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="HTML Typewriter"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="HTML Variable"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false"
+   Name="annotation subject"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Outline List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Outline List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Outline List 3"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Balloon Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" QFormat="true"
+   Name="No Spacing"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Revision"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" QFormat="true"
+   Name="List Paragraph"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" QFormat="true"
+   Name="Quote"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" QFormat="true"
+   Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="19" UnhideWhenUsed="false"
+   QFormat="true" Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" UnhideWhenUsed="false"
+   QFormat="true" Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" UnhideWhenUsed="false"
+   QFormat="true" Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" UnhideWhenUsed="false"
+   QFormat="true" Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" UnhideWhenUsed="false"
+   QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+   Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true" QFormat="true"
+   Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:微软雅黑;
+	panose-1:2 11 5 3 2 2 4 2 2 4;
+	mso-font-charset:134;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610612089 684670034 22 0 262175 0;}
+@font-face
+	{font-family:"\@微软雅黑";
+	panose-1:2 11 5 3 2 2 4 2 2 4;
+	mso-font-charset:134;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610612089 684670034 22 0 262175 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+h1
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:正文;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:1;
+	font-size:24.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	mso-font-kerning:22.0pt;
+	font-weight:bold;}
+h2
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:正文;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:2;
+	font-size:18.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+h3
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:正文;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:3;
+	font-size:13.5pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+h4
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:正文;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:4;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+h5
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:正文;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:5;
+	font-size:10.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+h6
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:正文;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:6;
+	font-size:7.5pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+p
+	{mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+pre
+	{mso-style-priority:99;
+	mso-style-unhide:no;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:21.0pt;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-indent:21.0pt;
+	mso-char-indent-count:2.0;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.1Char
+	{mso-style-name:"标题 1 Char";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-ansi-font-size:22.0pt;
+	mso-bidi-font-size:22.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;
+	mso-font-kerning:22.0pt;
+	font-weight:bold;}
+span.2Char
+	{mso-style-name:"标题 2 Char";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-ansi-font-size:16.0pt;
+	mso-bidi-font-size:16.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:宋体;
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	font-weight:bold;}
+span.3Char
+	{mso-style-name:"标题 3 Char";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-ansi-font-size:16.0pt;
+	mso-bidi-font-size:16.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+span.4Char
+	{mso-style-name:"标题 4 Char";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:宋体;
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	font-weight:bold;}
+span.5Char
+	{mso-style-name:"标题 5 Char";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;
+	font-weight:bold;}
+span.6Char
+	{mso-style-name:"标题 6 Char";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:宋体;
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	font-weight:bold;}
+span.HTMLChar
+	{mso-style-name:"HTML 预设格式 Char";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	font-family:"Courier New";
+	mso-ascii-font-family:"Courier New";
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:"Courier New";
+	mso-bidi-font-family:"Courier New";}
+p.Char, li.Char, div.Char
+	{mso-style-name:"普通\(网站\) Char";
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.pChar, li.pChar, div.pChar
+	{mso-style-name:"p Char";
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.CharChar, li.CharChar, div.CharChar
+	{mso-style-name:"普通\(网站\) Char Char";
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.HTMLChar1, li.HTMLChar1, div.HTMLChar1
+	{mso-style-name:"HTML 预设格式 Char1";
+	mso-style-unhide:no;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.10
+	{mso-style-name:10;
+	mso-style-unhide:no;
+	font-family:"Times New Roman","serif";
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+span.15
+	{mso-style-name:15;
+	mso-style-unhide:no;
+	font-family:"Times New Roman","serif";
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+span.16
+	{mso-style-name:16;
+	mso-style-unhide:no;
+	font-family:"Times New Roman","serif";
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+span.17
+	{mso-style-name:17;
+	mso-style-unhide:no;
+	font-family:"Times New Roman","serif";
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-style:italic;}
+span.18
+	{mso-style-name:18;
+	mso-style-unhide:no;
+	font-family:"Times New Roman","serif";
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;}
+span.19
+	{mso-style-name:19;
+	mso-style-unhide:no;
+	font-family:"Times New Roman","serif";
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+span.20
+	{mso-style-name:20;
+	mso-style-unhide:no;
+	font-family:"Times New Roman","serif";
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+span.21
+	{mso-style-name:21;
+	mso-style-unhide:no;
+	font-family:"Times New Roman","serif";
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+span.22
+	{mso-style-name:22;
+	mso-style-unhide:no;
+	font-family:"Times New Roman","serif";
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+span.23
+	{mso-style-name:23;
+	mso-style-unhide:no;
+	font-family:"Times New Roman","serif";
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-font-kerning:0pt;}
+ /* Page Definitions */
+ @page
+	{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;}
+@page WordSection1
+	{size:841.95pt 21.0cm;
+	mso-page-orientation:landscape;
+	margin:36.0pt 36.0pt 36.0pt 36.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:150487052;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1522620542 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l0:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.0pt;
+	text-indent:-21.0pt;}
+@list l0:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%2\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:42.0pt;
+	text-indent:-21.0pt;}
+@list l0:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:63.0pt;
+	text-indent:-21.0pt;}
+@list l0:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:84.0pt;
+	text-indent:-21.0pt;}
+@list l0:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%5\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:105.0pt;
+	text-indent:-21.0pt;}
+@list l0:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:126.0pt;
+	text-indent:-21.0pt;}
+@list l0:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:147.0pt;
+	text-indent:-21.0pt;}
+@list l0:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%8\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:168.0pt;
+	text-indent:-21.0pt;}
+@list l0:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:189.0pt;
+	text-indent:-21.0pt;}
+@list l1
+	{mso-list-id:616567921;
+	mso-list-template-ids:-1037794250;}
+@list l1:level1
+	{mso-level-start-at:9;
+	mso-level-number-format:chinese-counting;
+	mso-level-suffix:none;
+	mso-level-text:%1、;
+	mso-level-tab-stop:0cm;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;
+	font-family:"Times New Roman","serif";}
+@list l1:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Times New Roman","serif";}
+@list l1:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Times New Roman","serif";}
+@list l1:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Times New Roman","serif";}
+@list l1:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Times New Roman","serif";}
+@list l1:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Times New Roman","serif";}
+@list l1:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Times New Roman","serif";}
+@list l1:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Times New Roman","serif";}
+@list l1:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Times New Roman","serif";}
+@list l2
+	{mso-list-id:982270170;
+	mso-list-type:hybrid;
+	mso-list-template-ids:982282630 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l2:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:42.0pt;
+	text-indent:-21.0pt;}
+@list l2:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%2\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:63.0pt;
+	text-indent:-21.0pt;}
+@list l2:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:84.0pt;
+	text-indent:-21.0pt;}
+@list l2:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:105.0pt;
+	text-indent:-21.0pt;}
+@list l2:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%5\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:126.0pt;
+	text-indent:-21.0pt;}
+@list l2:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:147.0pt;
+	text-indent:-21.0pt;}
+@list l2:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:168.0pt;
+	text-indent:-21.0pt;}
+@list l2:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-text:"%8\)";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:189.0pt;
+	text-indent:-21.0pt;}
+@list l2:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:210.0pt;
+	text-indent:-21.0pt;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:普通表格;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1026"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=ZH-CN style='tab-interval:21.0pt'>
+
+<div class=WordSection1>
+
+<p class=Char style='margin:0cm;margin-bottom:.0001pt;line-height:21.0pt'><span
+class=18><span style='font-size:15.0pt;font-family:"微软雅黑","sans-serif"'>珠峰培训<span
+class=SpellE><span lang=EN-US>js</span></span>免费课考试题<span lang=EN-US>(</span>加强版<span
+lang=EN-US>)</span>，题目稍微加大难度，请认真作答<span lang=EN-US>~</span></span></span><b><span
+lang=EN-US style='font-size:15.0pt;font-family:"微软雅黑","sans-serif"'><o:p></o:p></span></b></p>
+
+<p class=Char style='margin:0cm;margin-bottom:.0001pt;line-height:21.0pt'><span
+class=18><span style='font-size:15.0pt;font-family:"微软雅黑","sans-serif";
+color:red'>一、基础知识填空</span></span><span lang=EN-US style='font-size:15.0pt;
+color:red'><o:p></o:p></span></p>
+
+<pre style='margin-left:30.0pt;text-indent:-30.0pt;mso-char-indent-count:-2.0;
+background:white'><b><span lang=EN-US style='font-size:15.0pt;font-family:"微软雅黑","sans-serif"'><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>JS</span></b><b><span
+style='font-size:15.0pt;font-family:"微软雅黑","sans-serif"'>中的数据类型包含哪些<span
+lang=EN-US>(</span>要求详细<span lang=EN-US>)</span>以及基本数据类型和引用数据类型的本质区别：</span></b><span
+style='font-size:11.5pt;color:black'>基本数据类型：</span><span lang=EN-US
+style='font-size:11.5pt;font-family:"Courier New";color:black'>number</span><span
+style='font-size:11.5pt;color:black'>， </span><span lang=EN-US
+style='font-size:11.5pt;font-family:"Courier New";color:black'>string</span><span
+style='font-size:11.5pt;color:black'>，</span><span class=SpellE><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:black'>boolean</span></span><span
+style='font-size:11.5pt;color:black'>，</span><span lang=EN-US style='font-size:
+11.5pt;font-family:"Courier New";color:black'>null</span><span
+style='font-size:11.5pt;color:black'>，</span><span lang=EN-US style='font-size:
+11.5pt;font-family:"Courier New";color:black'>undefined<br>
+</span><span style='font-size:11.5pt;color:black'>引用数据类型：</span><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:black'>object</span><span
+style='font-size:11.5pt;color:black'>，</span><span lang=EN-US style='font-size:
+11.5pt;font-family:"Courier New";color:black'>function</span><span lang=EN-US
+style='font-size:11.5pt;color:black'><o:p></o:p></span></pre><pre
+style='background:white'><b><span lang=EN-US style='font-size:15.0pt;
+font-family:"微软雅黑","sans-serif"'><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>JS</span></b><b><span
+style='font-size:15.0pt;font-family:"微软雅黑","sans-serif"'>中如何的检测数据类型<span
+lang=EN-US>(</span>写出四种方法<span lang=EN-US>)</span>：</span></b><span
+class=SpellE><span lang=EN-US style='font-size:11.5pt;font-family:"Courier New";
+color:black'>typeof</span></span><span style='font-size:11.5pt;mso-bidi-font-family:
+"Courier New";color:black'>，</span><span class=SpellE><span lang=EN-US
+style='font-size:11.5pt;font-family:"Courier New";color:black'>instanceof</span></span><span
+style='font-size:11.5pt;mso-bidi-font-family:"Courier New";color:black'>，</span><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:black'>constructor</span><span
+style='font-size:11.5pt;mso-bidi-font-family:"Courier New";color:black'>，</span><span
+class=SpellE><span lang=EN-US style='font-size:11.5pt;font-family:"Courier New";
+color:black'>object.prototype.toString.call</span></span><span lang=EN-US
+style='font-size:11.5pt;font-family:"Courier New";color:black'><o:p></o:p></span></pre>
+
+<p class=Char style='margin:0cm;margin-bottom:.0001pt;text-indent:30.0pt;
+mso-char-indent-count:2.0;line-height:21.0pt'><b><span lang=EN-US
+style='font-size:15.0pt;font-family:"微软雅黑","sans-serif"'><span
+style='mso-spacerun:yes'>&nbsp;</span>JS</span></b><b><span style='font-size:
+15.0pt;font-family:"微软雅黑","sans-serif"'>中判断某个值是否是一个有效数字的方法是：<span class=SpellE><span
+lang=EN-US>NaN<span class=GramE>;isNaN</span></span></span><span lang=EN-US><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span><o:p></o:p></span></span></b></p>
+
+<p class=Char style='margin:0cm;margin-bottom:.0001pt;line-height:21.0pt'><b><span
+lang=EN-US style='font-size:15.0pt;font-family:"微软雅黑","sans-serif"'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><b><span
+style='font-size:15.0pt;font-family:"微软雅黑","sans-serif"'>想要接收函数执行的时候传递的参数，都可以如何的处理：<span
+lang=EN-US>return<span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span></span>将其他的数据类型转化为<span
+lang=EN-US>number</span>类型的方式有<span class=SpellE><span lang=EN-US>number;<span
+class=GramE>parseInt</span></span></span><span lang=EN-US> ;<span class=SpellE>parsefloat</span><o:p></o:p></span></span></b></p>
+
+<p class=Char style='margin:0cm;margin-bottom:.0001pt;line-height:21.0pt'><span
+class=18><span style='font-size:15.0pt;font-family:"微软雅黑","sans-serif";
+color:red'>二、写出<span lang=EN-US>DOM</span>中常用的方法和属性</span></span><b><span
+lang=EN-US style='font-size:15.0pt;font-family:"微软雅黑","sans-serif";color:red'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><b><span
+lang=EN-US style='font-size:15.0pt;font-family:"微软雅黑","sans-serif"'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:30.0pt;text-indent:-30.0pt;mso-char-indent-count:-2.0;line-height:
+21.0pt'><b><span lang=EN-US style='font-size:15.0pt;font-family:"微软雅黑","sans-serif"'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><b><span
+style='font-size:15.0pt;font-family:"微软雅黑","sans-serif"'>有一个<span lang=EN-US>div:&lt;div<span
+style='mso-spacerun:yes'>&nbsp; </span>class=</span><span class=GramE>”</span><span
+lang=EN-US>w</span><span class=GramE>”</span><span lang=EN-US>name=</span><span
+class=GramE>”</span><span lang=EN-US>h</span><span class=GramE>”</span><span
+lang=EN-US>id=</span><span class=GramE>”</span><span lang=EN-US>div1</span><span
+class=GramE>”</span><span lang=EN-US>&gt;&lt;/div&gt;</span>我想获取这<span
+style='color:red'>一个</span><span lang=EN-US>div</span>你有几种解决办法<span lang=EN-US>(</span>不考虑兼容<span
+lang=EN-US>)</span>：<span class=SpellE><span class=GramE><span lang=EN-US>document.getElementById</span></span></span><span
+class=GramE><span lang=EN-US>(</span></span><span lang=EN-US>“div1”); <span
+class=SpellE>document.getElementByTagName</span>(“div”)[0]<o:p></o:p></span></span></b></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:21.0pt'><b><span lang=EN-US style='font-size:15.0pt;font-family:
+"微软雅黑","sans-serif"'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><b><span
+style='font-size:15.0pt;font-family:"微软雅黑","sans-serif"'>获取当前浏览器屏幕的宽度和高度<span
+lang=EN-US>(</span>兼容所有的浏览器<span lang=EN-US>)</span>：<span lang=EN-US><o:p></o:p></span></span></b></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-indent:30.0pt;mso-char-indent-count:2.0;line-height:21.0pt'><span
+class=SpellE><span class=GramE><b><span lang=EN-US style='font-size:15.0pt;
+font-family:"微软雅黑","sans-serif"'>var</span></b></span></span><b><span
+lang=EN-US style='font-size:15.0pt;font-family:"微软雅黑","sans-serif"'> <span
+class=SpellE>curW</span> = <span class=SpellE>document.documentElement.clientWidth</span>
+|| <span class=SpellE>document.body.clientWidth</span>;<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-indent:33.0pt;mso-char-indent-count:2.2;line-height:21.0pt'><span
+class=SpellE><span class=GramE><b><span lang=EN-US style='font-size:15.0pt;
+font-family:"微软雅黑","sans-serif"'>var</span></b></span></span><b><span
+lang=EN-US style='font-size:15.0pt;font-family:"微软雅黑","sans-serif"'> <span
+class=SpellE>curH</span> = <span class=SpellE>document.documentElement.clientHeight</span>
+|| <span class=SpellE>document.body.clientHeight</span>;<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-indent:18.0pt;line-height:21.0pt'><b><span lang=EN-US style='font-size:
+15.0pt;font-family:"微软雅黑","sans-serif"'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp; </span></span></b><b><span
+style='font-size:15.0pt;font-family:"微软雅黑","sans-serif"'>获取上一个哥哥<span
+style='color:red'>元素</span>节点（兼容所有的浏览器）<span lang=EN-US>:<o:p></o:p></span></span></b></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-indent:33.0pt;mso-char-indent-count:2.2;line-height:21.0pt'><b><span
+style='font-size:15.0pt;font-family:"微软雅黑","sans-serif"'>在<span lang=EN-US>IE6~8</span>下不兼容<span
+lang=EN-US><o:p></o:p></span></span></b></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-indent:18.0pt;line-height:21.0pt'><b><span lang=EN-US style='font-size:
+15.0pt;font-family:"微软雅黑","sans-serif"'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>.<span class=SpellE>previousSibling</span><o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-indent:18.0pt;line-height:21.0pt'><b><span lang=EN-US style='font-size:
+15.0pt;font-family:"微软雅黑","sans-serif"'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp; </span>.<span class=SpellE>previousElementSibling</span><o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:21.0pt'><b><span lang=EN-US style='font-size:15.0pt;font-family:
+"微软雅黑","sans-serif"'><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;</span></span></b><b><span
+style='font-size:15.0pt;font-family:"微软雅黑","sans-serif"'>动态创建一个<span
+lang=EN-US>div</span>标签，并且添加到<span lang=EN-US>body</span>的最后面位置： <span
+class=SpellE><span class=GramE><span lang=EN-US>attendelement</span></span></span><span
+lang=EN-US><o:p></o:p></span></span></b></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-indent:30.0pt;mso-char-indent-count:2.0;line-height:21.0pt'><b><span
+style='font-size:15.0pt;font-family:"微软雅黑","sans-serif"'>继续上一题，把刚才创建的克隆一份一模一样的，添加到刚才创建的<span
+lang=EN-US>div</span>前面：<span lang=EN-US>.<span class=SpellE><span class=GramE>cloneNode</span></span><span
+class=GramE>(</span>true);<o:p></o:p></span></span></b></p>
+
+<p class=Char style='line-height:21.0pt'><span class=18><span style='font-size:
+15.0pt;font-family:"微软雅黑","sans-serif";color:red'>三、数组的基础知识和应用</span></span><span
+lang=EN-US style='font-size:15.0pt;color:red'><o:p></o:p></span></p>
+
+<p class=Char style='line-height:21.0pt'><b><span lang=EN-US style='font-size:
+15.0pt;font-family:"微软雅黑","sans-serif"'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><b><span
+style='font-size:15.0pt;font-family:"微软雅黑","sans-serif"'>我想删除数组中的最后一项，至少写出两种办法：<span
+class=GramE><span lang=EN-US>pop</span></span><span lang=EN-US> splice(ary.length,1)<span
+style='mso-spacerun:yes'>&nbsp;&nbsp; </span><o:p></o:p></span></span></b></p>
+
+<p class=Char style='text-indent:15.0pt;mso-char-indent-count:1.0;line-height:
+21.0pt'><b><span lang=EN-US style='font-size:15.0pt;font-family:"微软雅黑","sans-serif"'><span
+style='mso-spacerun:yes'>&nbsp;</span></span></b><b><span style='font-size:
+15.0pt;font-family:"微软雅黑","sans-serif"'>我想在数组的末尾增加一个元素，至少写出两种办法：<span
+class=GramE><span lang=EN-US>push</span></span><span lang=EN-US> splice(ary.length,0,1)
+<span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><o:p></o:p></span></span></b></p>
+
+<p class=Char style='text-indent:15.0pt;mso-char-indent-count:1.0;line-height:
+21.0pt'><b><span style='font-size:15.0pt;font-family:"微软雅黑","sans-serif"'>基于原来的数组复制一份一模一样新的数组，不考虑原有数组是否改变的情况，请写出至少三种方案：
+<span class=GramE><span lang=EN-US>slice(</span></span><span lang=EN-US>n),<span
+class=SpellE>indexof;lastindexof</span></span></span></b><span lang=EN-US
+style='font-size:15.0pt'><o:p></o:p></span></p>
+
+<p class=Char style='text-indent:18.0pt;line-height:21.0pt'><b><span
+style='font-size:15.0pt;font-family:"微软雅黑","sans-serif"'>数组从小到大排序<span
+lang=EN-US>(</span>可以处理<span lang=EN-US>10</span>以上的数字<span lang=EN-US>)</span>：<span
+lang=EN-US>!sort return a-b<span style='mso-spacerun:yes'>&nbsp;&nbsp; </span><o:p></o:p></span></span></b></p>
+
+<p class=MsoNormal style='text-indent:15.0pt;mso-char-indent-count:1.0;
+line-height:20.0pt;mso-line-height-rule:exactly;background:white'><b><span
+style='font-size:15.0pt;font-family:"微软雅黑","sans-serif"'>实现<span class=GramE>找到<span
+style='color:red'>第</span></span><span lang=EN-US style='color:red'>n</span><span
+style='color:red'>项</span>到<span style='color:red'>第<span lang=EN-US>m</span>项</span>的内容，返回一个新的数组<span
+lang=EN-US>(</span>原有数组不变<span lang=EN-US>)</span>：</span></b><span
+class=GramE><span lang=EN-US style='font-size:10.5pt;font-family:"微软雅黑","sans-serif";
+mso-bidi-font-family:微软雅黑'>Slice(</span></span><span lang=EN-US
+style='font-size:10.5pt;font-family:"微软雅黑","sans-serif";mso-bidi-font-family:
+微软雅黑'>n-1,m)<o:p></o:p></span></p>
+
+<p class=Char style='line-height:21.0pt'><span class=18><span style='font-size:
+15.0pt;font-family:"微软雅黑","sans-serif";color:red'>四、写出下面表达式的运算结果</span></span><span
+lang=EN-US style='font-size:15.0pt;color:red'><o:p></o:p></span></p>
+
+<p class=Char style='line-height:21.0pt'><b><span lang=EN-US style='font-size:
+15.0pt;font-family:"微软雅黑","sans-serif"'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span>[]==false</span></b><b><span
+style='font-size:15.0pt;font-family:"微软雅黑","sans-serif"'>：<span lang=EN-US>____true________<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span><span class=GramE>![</span>]==false</span>：<span
+lang=EN-US>____true________<span style='mso-spacerun:yes'>&nbsp;&nbsp;
+</span>[]==![]</span>：<span lang=EN-US>______false________<span
+style='mso-spacerun:yes'>&nbsp;&nbsp; </span>Number(</span>“<span lang=EN-US>13px</span>”<span
+lang=EN-US>)==<span class=SpellE>NaN</span></span>：<span lang=EN-US>_true__________<span
+style='mso-spacerun:yes'>&nbsp; </span>5+</span>”<span lang=EN-US>3</span>”<span
+lang=EN-US>-2</span>：<span lang=EN-US>_________51__________</span></span></b><span
+lang=EN-US style='font-size:15.0pt'><o:p></o:p></span></p>
+
+<p class=Char style='text-indent:21.0pt;line-height:21.0pt'><b><span
+lang=EN-US style='font-size:15.0pt;font-family:"微软雅黑","sans-serif"'>If(</span></b><b><span
+style='font-size:15.0pt;font-family:"微软雅黑","sans-serif"'>“<span lang=EN-US>3px</span>”<span
+lang=EN-US>*3){alert(</span>“<span lang=EN-US>true</span>”<span lang=EN-US>)}else{alert(</span>“<span
+lang=EN-US>false</span>”<span lang=EN-US>)}</span>：<span lang=EN-US>______false______<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>If(</span>“<span
+lang=EN-US>3px</span>”<span lang=EN-US>+3){alert(</span>“<span lang=EN-US>true</span>”<span
+lang=EN-US>)}else{alert(</span>“<span lang=EN-US>false</span>”<span lang=EN-US>)}</span>：<span
+lang=EN-US>____true_______<o:p></o:p></span></span></b></p>
+
+<p class=Char style='text-indent:21.0pt;line-height:21.0pt'><b><span
+lang=EN-US style='font-size:15.0pt;font-family:"微软雅黑","sans-serif"'>If</span></b><b><span
+style='font-size:15.0pt;font-family:"微软雅黑","sans-serif"'>（<span class=SpellE><span
+lang=EN-US>document.body</span></span>）<span lang=EN-US>{alert(</span>“<span
+lang=EN-US>ok</span>”<span lang=EN-US>);}else{alert(</span>“<span lang=EN-US>no</span>”<span
+lang=EN-US>)}</span>：<span lang=EN-US>____false_______<span
+style='mso-spacerun:yes'>&nbsp;&nbsp; </span>alert([])</span>：<span lang=EN-US>_____true_<span
+style='mso-spacerun:yes'>&nbsp;&nbsp; </span>null==undefined</span>：<span
+lang=EN-US>_______true_________<o:p></o:p></span></span></b></p>
+
+<p class=HTMLChar1 style='line-height:21.0pt'><span class=18><span
+style='font-size:15.0pt;font-family:"微软雅黑","sans-serif";color:#FF6600'>五、已知一个数组为：<span
+class=SpellE><span lang=EN-US>var</span></span><span lang=EN-US> <span
+class=SpellE>ary</span>=[12,23,23,12,24,34,34,23,34,5,21,2]; </span></span></span><span
+class=HTMLChar><span lang=EN-US style='font-family:"微软雅黑","sans-serif";
+mso-bidi-font-family:宋体;color:#FF6600'><o:p></o:p></span></span></p>
+
+<p class=HTMLChar1 style='line-height:21.0pt'><span class=18><span lang=EN-US
+style='font-size:15.0pt;font-family:"微软雅黑","sans-serif"'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><span
+class=18><span style='font-size:15.0pt;font-family:"微软雅黑","sans-serif"'>我想把重复的项去掉，然后在按照从大到小排序，原有的数组是不改变的，请用你认为最优的方式实现！<span
+lang=EN-US>(</span>不得使用<span lang=EN-US>sort</span>方法<span lang=EN-US>)<o:p></o:p></span></span></span></p>
+
+<p class=MsoListParagraph style='margin-left:42.0pt;text-indent:0cm;mso-char-indent-count:
+0'><span lang=EN-US>/* <span class=SpellE>var</span> <span class=SpellE>maxnum</span>=<span
+class=SpellE>ary</span>[0];<br>
+<span style='mso-spacerun:yes'>&nbsp; </span><span class=SpellE>var</span> <span
+class=SpellE>minnum</span>=<span class=SpellE>ary</span>[0];<br>
+<span style='mso-spacerun:yes'>&nbsp; </span>for(<span class=SpellE>var</span>
+i=0;i&lt;<span class=SpellE>ary.length;i</span>++){<br>
+<span style='mso-spacerun:yes'>&nbsp; </span><span class=SpellE>ary</span>[i]&gt;<span
+class=SpellE>maxnum?maxnum</span>=<span class=SpellE>ary</span>[i]:void 0;<br>
+<span style='mso-spacerun:yes'>&nbsp; </span><span class=SpellE>ary</span>[i]&lt;<span
+class=SpellE>minnum?minnum</span>=<span class=SpellE>ary</span>[i]:void 0;<br>
+<span style='mso-spacerun:yes'>&nbsp; </span>}*/<br>
+<span style='mso-spacerun:yes'>&nbsp;</span><span class=SpellE>var</span> <span
+class=SpellE>maxnum</span>=<span class=SpellE>Math.max.apply</span>(<span
+class=SpellE>null,ary</span>);<br>
+<span style='mso-spacerun:yes'>&nbsp;</span><span class=SpellE>var</span> <span
+class=SpellE>minnum</span>=<span class=SpellE>Math.min.apply</span>(<span
+class=SpellE>null,ary</span>);</span></p>
+
+<p class=HTMLChar1 style='line-height:21.0pt'><span class=HTMLChar><b><span
+lang=EN-US style='font-size:15.0pt;font-family:"微软雅黑","sans-serif";mso-bidi-font-family:
+宋体'><o:p>&nbsp;</o:p></span></b></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:21.0pt'><span class=18><span style='font-size:15.0pt;font-family:
+"微软雅黑","sans-serif";color:#FF6600'>六、写一个方法<span lang=EN-US>sum</span>来实现任意数求和的功能<span
+lang=EN-US>(</span>说明：任意数<span class=GramE>求和指</span>的是，在方法执行的时候，不管<span
+class=GramE>传多少</span>个数字，都可以累加求和<span lang=EN-US>)</span></span></span><span
+lang=EN-US style='color:#FF6600'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:21.0pt'><b><span lang=EN-US style='font-size:15.0pt;font-family:
+"微软雅黑","sans-serif"'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>1</span></b><b><span
+style='font-size:15.0pt;font-family:"微软雅黑","sans-serif"'>、实现基础的要求<span
+lang=EN-US>+6</span>分<span lang=EN-US><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>2</span>、把求和结果返回到函数外面，在外面接收的<span
+lang=EN-US>+2</span>分<span lang=EN-US><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>3</span>、对于非有效数字可以过滤掉，不进行累加求和<span
+lang=EN-US>+2</span>分<span lang=EN-US><o:p></o:p></span></span></b></p>
+
+<pre style='background:white'><b><span lang=EN-US style='font-size:15.0pt;
+font-family:"微软雅黑","sans-serif"'><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><b><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:navy'>function </span></b><i><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:black'>sum</span></i><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:black'>(){<br>
+<span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+class=SpellE><b><span lang=EN-US style='font-size:11.5pt;font-family:"Courier New";
+color:navy'>var</span></b></span><b><span lang=EN-US style='font-size:11.5pt;
+font-family:"Courier New";color:navy'> </span></b><span lang=EN-US
+style='font-size:11.5pt;font-family:"Courier New";color:#458383'>total </span><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:black'>= </span><b><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:navy'>null</span></b><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:black'>;<br>
+<span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:navy'>for</span></b><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:black'>(</span><span
+class=SpellE><b><span lang=EN-US style='font-size:11.5pt;font-family:"Courier New";
+color:navy'>var</span></b></span><b><span lang=EN-US style='font-size:11.5pt;
+font-family:"Courier New";color:navy'> </span></b><span lang=EN-US
+style='font-size:11.5pt;font-family:"Courier New";color:#458383'>i </span><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:black'>= </span><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:blue'>0</span><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:black'>;</span><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:#458383'>i</span><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:black'>&lt;</span><span
+class=SpellE><span lang=EN-US style='font-size:11.5pt;font-family:"Courier New";
+color:#458383'>arguments</span><span lang=EN-US style='font-size:11.5pt;
+font-family:"Courier New";color:black'>.</span><b><span lang=EN-US
+style='font-size:11.5pt;font-family:"Courier New";color:#660E7A'>length</span></b><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:black'>;</span><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:#458383'>i</span></span><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:black'>++) {<br>
+</span><i><span lang=EN-US style='font-size:11.5pt;font-family:"Courier New";
+color:gray'>//<span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>if(!<span
+class=SpellE>isNaN</span>(arguments[i])){//</span></i><i><span
+style='font-size:11.5pt;mso-bidi-font-family:"Courier New";color:gray'>不是有效数字的给过滤了<span
+lang=EN-US><br>
+</span></span></i><i><span lang=EN-US style='font-size:11.5pt;font-family:"Courier New";
+color:gray'>//<span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>total += arguments[i];<br>
+//<span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>}<br>
+<span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>/*</span></i><i><span
+style='font-size:11.5pt;mso-bidi-font-family:"Courier New";color:gray'>三元运算符的写法</span></i><i><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:gray'>*/<br>
+<span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></i><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:black'>!</span><span
+class=SpellE><span lang=EN-US style='font-size:11.5pt;font-family:"Courier New";
+color:#7A7A43'>isNaN</span></span><span lang=EN-US style='font-size:11.5pt;
+font-family:"Courier New";color:black'>(</span><span lang=EN-US
+style='font-size:11.5pt;font-family:"Courier New";color:#458383'>arguments</span><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:black'>[</span><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:#458383'>i</span><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:black'>])? </span><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:#458383'>total </span><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:black'>+= </span><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:#458383'>arguments</span><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:black'>[</span><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:#458383'>i</span><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:black'>] : </span><b><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:navy'>null</span></b><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:black'>;<br>
+<span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><i><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:gray'>//30+&quot;zhufeng&quot; =&quot;30zhufeng&quot;;<br>
+<span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></i><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:black'>}<br>
+<span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><b><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:navy'>return </span></b><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:#458383'>total</span><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:black'>;<br>
+<span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>}<br>
+<span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span></span><b><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:#660E7A'>console</span></b><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:black'>.</span><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:#7A7A43'>log</span><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:black'>(<i>sum</i>(</span><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:blue'>10</span><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:black'>,</span><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:blue'>20</span><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:black'>,</span><b><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:green'>&quot;zhufeng&quot;</span></b><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:black'>,</span><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:blue'>50</span><span
+lang=EN-US style='font-size:11.5pt;font-family:"Courier New";color:black'>));<o:p></o:p></span></pre>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:21.0pt'><span lang=EN-US style='font-size:15.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:21.0pt'><span class=18><span style='font-size:15.0pt;font-family:
+"微软雅黑","sans-serif";color:#FF6600'>七、实现一个方法<span class=SpellE><span lang=EN-US>getRandom</span></span>来实现获取<span
+lang=EN-US>n</span>到<span lang=EN-US>m</span>之间的随机整数<span lang=EN-US>(</span>包含<span
+lang=EN-US>n</span>和<span lang=EN-US>m)</span></span></span><b><span
+lang=EN-US style='font-size:15.0pt;font-family:"微软雅黑","sans-serif";color:#FF6600'><o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:21.0pt'><span class=18><span lang=EN-US style='font-size:15.0pt;
+font-family:"微软雅黑","sans-serif"'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><b><span
+lang=EN-US style='font-size:15.0pt;font-family:"微软雅黑","sans-serif"'>1</span></b><b><span
+style='font-size:15.0pt;font-family:"微软雅黑","sans-serif"'>、实现基本功能<span
+lang=EN-US>+6</span>分<span lang=EN-US><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp; </span>2</span>、如果<span
+lang=EN-US>n</span>或者<span lang=EN-US>m</span>没有传递参数，或者传递的不是有效的数字，则返回的是<span
+lang=EN-US>[0-1)</span>之间的随机小数<span lang=EN-US>+2</span>分<span lang=EN-US><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>3</span>、如果传递的<span
+lang=EN-US>n</span>的值大于<span lang=EN-US>m</span>的值，让<span lang=EN-US>n</span>和<span
+lang=EN-US>m</span>交换数值<span lang=EN-US>+2</span>分<span lang=EN-US><o:p></o:p></span></span></b></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:21.0pt'><b><span lang=EN-US style='font-size:15.0pt;font-family:
+"微软雅黑","sans-serif"'><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span class=SpellE><span class=GramE>Getaround</span></span><span
+class=GramE>(</span>get random (n-m)+n)<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:21.0pt'><b><span style='font-size:15.0pt;font-family:"微软雅黑","sans-serif";
+color:#FF6600'>八、</span></b><b><span lang=EN-US style='font-size:15.0pt;
+font-family:"微软雅黑","sans-serif"'>&lt;<span style='color:navy'>input </span><span
+style='color:blue'>type=</span><span style='color:green'>&quot;button&quot; </span><span
+style='color:blue'>value=</span><span style='color:green'>&quot;</span></span></b><b><span
+style='font-size:15.0pt;font-family:"微软雅黑","sans-serif";color:green'>按钮<span
+lang=EN-US>1&quot;</span></span></b><b><span lang=EN-US style='font-size:15.0pt;
+font-family:"微软雅黑","sans-serif"'>/&gt;&lt;<span style='color:navy'>input </span><span
+style='color:blue'>type=</span><span style='color:green'>&quot;button&quot; </span><span
+style='color:blue'>value=</span><span style='color:green'>&quot;</span></span></b><b><span
+style='font-size:15.0pt;font-family:"微软雅黑","sans-serif";color:green'>按钮<span
+lang=EN-US>2&quot;</span></span></b><b><span lang=EN-US style='font-size:15.0pt;
+font-family:"微软雅黑","sans-serif"'>/&gt;&lt;<span style='color:navy'>input </span><span
+style='color:blue'>type=</span><span style='color:green'>&quot;button&quot; </span><span
+style='color:blue'>value=</span><span style='color:green'>&quot;</span></span></b><b><span
+style='font-size:15.0pt;font-family:"微软雅黑","sans-serif";color:green'>按钮<span
+lang=EN-US>3&quot;</span></span></b><b><span lang=EN-US style='font-size:15.0pt;
+font-family:"微软雅黑","sans-serif"'>/&gt;&lt;<span style='color:navy'>input </span><span
+style='color:blue'>type=</span><span style='color:green'>&quot;button&quot; </span><span
+style='color:blue'>value=</span><span style='color:green'>&quot;</span></span></b><b><span
+style='font-size:15.0pt;font-family:"微软雅黑","sans-serif";color:green'>按钮<span
+lang=EN-US>4&quot;</span></span></b><b><span lang=EN-US style='font-size:15.0pt;
+font-family:"微软雅黑","sans-serif"'>/&gt;&lt;<span style='color:navy'>input </span><span
+style='color:blue'>type=</span><span style='color:green'>&quot;button&quot; </span><span
+style='color:blue'>value=</span><span style='color:green'>&quot;</span></span></b><b><span
+style='font-size:15.0pt;font-family:"微软雅黑","sans-serif";color:green'>按钮<span
+lang=EN-US>5&quot;</span></span></b><b><span lang=EN-US style='font-size:15.0pt;
+font-family:"微软雅黑","sans-serif"'>/&gt;<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span><span class=SpellE>var</span>
+<span class=SpellE>ary</span>=[</span></b><b><span style='font-size:15.0pt;
+font-family:"微软雅黑","sans-serif"'>“<span lang=EN-US>red</span>”<span lang=EN-US>,</span><span
+class=GramE>”</span><span lang=EN-US>yellow</span><span class=GramE>”</span><span
+lang=EN-US>,</span><span class=GramE>”</span><span lang=EN-US>pink</span><span
+class=GramE>”</span><span lang=EN-US>,</span><span class=GramE>”</span><span
+lang=EN-US>green</span><span class=GramE>”</span><span lang=EN-US>,</span><span
+class=GramE>”</span><span lang=EN-US>blue</span><span class=GramE>”</span><span
+lang=EN-US>];<o:p></o:p></span></span></b></p>
+
+<p class=HTMLChar1 style='line-height:21.0pt'><span class=18><span
+style='font-size:15.0pt;font-family:"微软雅黑","sans-serif"'>以上是页面中的<span
+lang=EN-US>5</span>个按钮，和一个存储五个颜色值的数组，要求实现一个方法<span class=SpellE><span
+lang=EN-US>bindEvent</span></span>，循环给<span lang=EN-US>5</span>个按钮绑定点击事件，当点击的时候，整个<span
+lang=EN-US>body</span>的背景颜色正好可以和数组中的指定项颜色对应<span lang=EN-US>(</span>例如：点击第三个按钮，<span
+lang=EN-US>body</span>的背景颜色<span class=GramE>”</span><span lang=EN-US>pink</span><span
+class=GramE>”</span><span lang=EN-US>)</span>，请按照你的思路来实现<span lang=EN-US>?</span></span></span><span
+class=HTMLChar><b><span lang=EN-US style='font-size:15.0pt;font-family:"微软雅黑","sans-serif";
+mso-bidi-font-family:宋体'> </span></b></span><span class=HTMLChar><span
+lang=EN-US style='font-family:"微软雅黑","sans-serif";mso-bidi-font-family:宋体'><o:p></o:p></span></span></p>
+
+<p class=HTMLChar1 style='line-height:21.0pt'><span class=HTMLChar><b><span
+lang=EN-US style='font-size:15.0pt;font-family:"微软雅黑","sans-serif";mso-bidi-font-family:
+宋体'><span style='mso-spacerun:yes'>&nbsp;</span><o:p></o:p></span></b></span></p>
+
+<p class=HTMLChar1 style='margin-left:0cm;text-indent:0cm;line-height:21.0pt;
+mso-list:l1 level1 lfo2;tab-stops:list 0cm'><![if !supportLists]><span
+class=HTMLChar><b><span lang=EN-US style='font-size:15.0pt;font-family:"Times New Roman","serif";
+mso-fareast-font-family:微软雅黑;mso-bidi-font-family:微软雅黑'><span style='mso-list:
+Ignore'>九、</span></span></b></span><![endif]><span class=SpellE><span
+class=HTMLChar><b><span lang=EN-US style='font-size:15.0pt;font-family:"微软雅黑","sans-serif";
+mso-bidi-font-family:宋体'>var</span></b></span></span><span class=HTMLChar><b><span
+lang=EN-US style='font-size:15.0pt;font-family:"微软雅黑","sans-serif";mso-bidi-font-family:
+宋体'> <span class=SpellE>ary</span>=[1,2,3,4];<o:p></o:p></span></b></span></p>
+
+<p class=HTMLChar1 style='line-height:21.0pt'><span class=HTMLChar><b><span
+lang=EN-US style='font-size:15.0pt;font-family:"微软雅黑","sans-serif";mso-bidi-font-family:
+宋体'><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+class=GramE>function</span> <span class=SpellE>fn</span>(<span class=SpellE>ary</span>){<o:p></o:p></span></b></span></p>
+
+<p class=HTMLChar1 style='margin-left:21.0pt;text-indent:21.0pt;line-height:
+21.0pt'><span class=SpellE><span class=GramE><span class=HTMLChar><b><span
+lang=EN-US style='font-size:15.0pt;font-family:"微软雅黑","sans-serif";mso-bidi-font-family:
+宋体'>ary</span></b></span></span></span><span class=GramE><span class=HTMLChar><b><span
+lang=EN-US style='font-size:15.0pt;font-family:"微软雅黑","sans-serif";mso-bidi-font-family:
+宋体'>[</span></b></span></span><span class=HTMLChar><b><span lang=EN-US
+style='font-size:15.0pt;font-family:"微软雅黑","sans-serif";mso-bidi-font-family:
+宋体'>0]=0;<span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span><span
+class=SpellE>ary</span>=[0];<span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+</span><span class=SpellE>ary</span>[0]=100;<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>return <span class=SpellE>ary</span>;
+<o:p></o:p></span></b></span></p>
+
+<p class=HTMLChar1 style='line-height:21.0pt;tab-stops:224.25pt'><span
+class=HTMLChar><b><span lang=EN-US style='font-size:15.0pt;font-family:"微软雅黑","sans-serif";
+mso-bidi-font-family:宋体'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>}<span
+style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><o:p></o:p></span></b></span></p>
+
+<p class=HTMLChar1 style='line-height:21.0pt'><span class=HTMLChar><b><span
+lang=EN-US style='font-size:15.0pt;font-family:"微软雅黑","sans-serif";mso-bidi-font-family:
+宋体'><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+class=SpellE>var</span> res=<span class=SpellE>fn</span>(<span class=SpellE>ary</span>);<span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span>console.log(<span
+class=SpellE>ary</span>);<span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;
+</span>console.log(res);<span style='mso-spacerun:yes'>&nbsp;&nbsp; </span>//</span></b></span><span
+class=HTMLChar><b><span style='font-size:15.0pt;font-family:"微软雅黑","sans-serif";
+mso-bidi-font-family:宋体'>此题偏难，认真思考<span lang=EN-US>(360</span>面试题难度降低版本代码<span
+lang=EN-US>)<o:p></o:p></span></span></b></span></p>
+
+<p class=HTMLChar1 style='line-height:21.0pt'><span class=HTMLChar><b><span
+lang=EN-US style='font-size:15.0pt;font-family:"微软雅黑","sans-serif";mso-bidi-font-family:
+宋体'><span style='mso-spacerun:yes'>&nbsp;</span><o:p></o:p></span></b></span></p>
+
+<p class=HTMLChar1 style='line-height:21.0pt'><span class=HTMLChar><b><span
+lang=EN-US style='font-size:15.0pt;font-family:"微软雅黑","sans-serif";mso-bidi-font-family:
+宋体'><span style='mso-spacerun:yes'>&nbsp;</span><o:p></o:p></span></b></span></p>
+
+<p class=HTMLChar1 style='line-height:21.0pt'><span class=HTMLChar><b><span
+lang=EN-US style='font-size:15.0pt;font-family:"微软雅黑","sans-serif";mso-bidi-font-family:
+宋体'><span style='mso-spacerun:yes'>&nbsp;</span><o:p></o:p></span></b></span></p>
+
+<p class=HTMLChar1 style='line-height:21.0pt'><span class=HTMLChar><b><span
+lang=EN-US style='font-size:15.0pt;font-family:"微软雅黑","sans-serif";mso-bidi-font-family:
+宋体'><span style='mso-spacerun:yes'>&nbsp;</span><o:p></o:p></span></b></span></p>
+
+<p class=HTMLChar1 style='line-height:21.0pt'><span class=HTMLChar><b><span
+lang=EN-US style='font-size:15.0pt;font-family:"微软雅黑","sans-serif";mso-bidi-font-family:
+宋体'><span style='mso-spacerun:yes'>&nbsp;</span><o:p></o:p></span></b></span></p>
+
+</div>
+
+<!--EndFragment-->
+</body>
+
+</html>

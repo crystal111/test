@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<script>
+    var ary = [12,34,6,7,4,2,8];
+        //第一轮 [12,6,7,4,2,8,34] 把最大的数排列到最后了  比较6次 ary.length-1-0
+        //第二轮 [6,7,4,2,8,12,34] ary.length-1-1
+//                                   ary.length-1-2
+//                                   ary.length-1-3
+//                                   ary.length-1-4
+//                                   ary.length-1-5
+    var temp = null;
+    for(var j = 0;j<ary.length-1;j++){
+        for (var i = 0;i<ary.length-1-j;i++){
+            if(ary[i]>ary[i+1]){
+                temp = ary[i];
+                ary[i]=ary[i+1];
+                ary[i+1] =temp;
+            }
+        }
+
+    }
+    console.log(ary);
+
+
+</script>
+</body>
+</html>

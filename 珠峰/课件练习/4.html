@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        *{
+            margain:0;
+            padding:0;
+            list-style: none;
+        }
+        ul{
+            border: 1px solid black;
+            position: relative;
+            width: 200px;
+
+        }
+ul li span.left{
+    width:0;
+    height:0;
+    border: 5px solid red;
+    border-color: transparent transparent transparent red;
+
+}
+ul li span.right{
+    width:0;
+    height:0;
+    border: 5px solid red;
+    border-color: transparent red transparent transparent;
+}
+
+ul li:hover p{
+    border: 1px solid white;
+    background-color: gray;
+    display: block;
+    position: relative;
+    left: 180px;
+
+}
+
+  p{
+      text-align: right;
+      display: none;
+      position: absolute;
+      float: right;
+        }
+
+
+    </style>
+</head>
+<body>
+<ul>
+    <li><span class="left"></span>首页<span class="right"></span><p>这里是什么菜单1这里是什么菜单1这里是什么菜单1</p></li>
+    <li><span class="left"></span>特色培训<span class="right"></span><p>这里是什么菜单2这里是什么菜单2</p></li>
+    <li><span class="left"></span>热点课程<span class="right"></span><p>这里是什么菜单3这里是什么菜单2</p></li>
+    <li><span class="left"></span>网站开发课程<span class="right"></span><p>这里是什么菜单4这里是什么菜单2</p></li>
+    <li><span class="left"></span>联系我们<span class="right"></span><p>这里是什么菜单5这里是什么菜单2这里是什么菜单2这里是什么菜单2</p></li>
+</ul>
+</body>
+</html>

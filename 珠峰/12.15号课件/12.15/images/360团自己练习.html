@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text">
+     *{
+         margin: 0;
+         padding: 0;
+     }
+body{
+    background-color: white;
+}
+ul{
+    list-style: none;
+}
+.topNav{
+    background-color: #000;
+    height:35px;
+    line-height:35px;
+    color: #fff;
+    font-size:12px;
+    font-family: "Microsoft Yahei";
+}
+.topNav .ulNav{
+    float: left;
+}
+     .topNav .new{
+     float: left;
+         padding: 0 5px;
+         background-color: #ff7b00;
+         border-radius: 3px;
+         line-height: 22px;
+         margin-top:6px;
+        }
+        .topNav .nav{
+            float: left;
+            padding: 0 25px 0 10px;
+            position: relative;
+        }
+        .topNav .nav span {
+            position: absolute;
+            width: 0;
+            height: 0;
+            border: 5px solid #fff;
+            border-corlor: #fff transparent transparent transparent;
+            top: 15px;
+            right: 15px;
+        }
+        .topNav:hover{
+            background: #fff;
+            color: #000;
+        }
+        .topNav .nav:hover span{
+            border-corlor:#000 transparent transparent transparent
+        }
+    </style>
+</head>
+<body>
+<div class="topNav">
+    <ul class="ulNav">
+        <li class="nav">首页<span></span></li>
+        <li class="nav">快捷入口<span></span></li>
+        <li class="nav">收藏本站<span></span></li>
+        <span class="new">新手上路散步拿返利</span>
+    </ul>
+</div>
+</body>
+</html>

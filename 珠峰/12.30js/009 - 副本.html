@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<input type="button" value="1"/>
+<input type="button" value="1"/>
+<input type="button" value="1"/>
+<input type="button" value="1"/>
+<input type="button" value="1"/>
+<input type="button" value="1"/>
+以下问题，第一、二、四部分在word中作答，第三部分自己新建html页面作答，把html页面一起打包发给老师，根据自身情况作答，本周和下一周完成即可，提前的完成的同学，提前发给老师
+QQ邮箱：1282347298@qq.com  命名规则：姓名+QQ+第六期.rar  例如：周啸天1282347298六期.rar
+第一部分：默写单词
+常用单词
+1、js中的数据类型分类(写出具体的详细分类和单词)
+基本数据类型：number， string，boolean，null，undefined
+引用数据类型：object，function
+2、判断数据类型的运算符typeof，instanceof，constructor，object.prototype.toString.call
+3、js中表示浏览器的对象  window
+4、js中表示文档对象 document
+5、js中文档对象模型DOM   document object model
+6、js中浏览器对象模型BOM  browser object model
+7、js中通过ID名获取一个元素getElementById();
+8、js中通过标签名获取一组元素 getElementsByTagName();
+9、把"12px"前面的12提出来的那个函数  parseInt
+10、把"12.5px"前面的12.5提出来的那个函数是 parseFloat
+写出以下数组方法： (自己对照第一周视频18-20数组 写以下的方法)
+1、在数组的前面追加新项  unshift
+2、删除数组的最后一项 pop
+3、在数组的后面追加一项push
+4、删除数组的第一项shift
+5、把数组转换为字符串 toString
+6、把数组按照指定的字符拆分成字符串join
+7、把索引第n到第m项提出来，但不影响原来的数组slice(n，m)
+8、把多个数组连在一起 concat
+9、从索引n开始，删除某个元素，原来的数组改变 splice(n.m)
+10、详细说一下splice方法的用法，这个是数组中最重要最强大的方法（说出它的功能，参数，返回值，是否对原实例有修改。）
+splic(n,m,x)从索引m开始删除，删除m个，x的内容替换删除掉的内容，原来的数组发生改变，返回值是删除的内容。
+11、写出函数的参数集合（fucntion中的内置接收参数的集合）arguments,arguments代表了参数对象的集合，arguments对象可以访问实参列表， 从0开始，第一个参数就是arguments[0],arguments[0]代表第一个参数对象，以此类推。
+12、函数中的返回值是通过什么来完成的return.
+<script type="text/javascript">
+    /*var personInfo={};
+    personInfo.name="珠峰培训";
+    personInfo.age="10年";
+    personInfo.teacher="耿老师";
+    for (var key in personInfo){
+        console.log(key+"="+personInfo[key]);
+    }*/
+    var oBtns=document.getElementsByTagName("input");
+    for (var i=0; i<oBtns.length; i++){
+        oBtns[i].zhuFeng=i;
+        oBtns[i].onclick=function(){
+            alert(this.zhuFeng);
+        }
+    }
+</script>
+</body>
+</html>

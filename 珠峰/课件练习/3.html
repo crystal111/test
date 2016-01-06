@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+
+ul{
+    margin:0;
+    padding: 0;
+    list-style: none;
+   border: 1px solid black;
+    width: 200px;
+    line-height: 16px;
+
+}
+p{
+    margin: 0;
+}
+ul li {
+    height:60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 18px;
+    color: red;
+    position: relative;
+    background: center;
+    border:1px solid #fff;
+
+
+}
+ul li:hover{
+    border:1px solid red;
+}
+ul li:hover span{
+        display:block;
+       width: 0px;
+       height: 0px;
+       border: 5px solid red;
+        position: absolute;
+     top:20px;
+   }
+ul li:hover span.left{
+       border-color: transparent red transparent transparent;
+       right: 10px;
+   }
+ul li:hover span.right{
+       border-color: transparent  transparent transparent red;
+       left: 10px;
+   }
+ul li p{
+    display: none;
+}
+ul li:hover p{
+    display: block;
+    width: 130px;
+    height: auto;
+    background-color:gray;
+    position:absolute;
+    top:0;
+    right:-150px;
+    line-height: 20px;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+<ul>
+    <li><span class="right"></span>首页<span class="left"></span><p>这是什么菜单</p></li>
+    <li><span class="right"></span>特色培训<span class="left"></span><p>这是什么菜单</p></li>
+    <li><span class="right"></span>热点课程<span class="left"></span><p>这是什么菜单</p></li>
+    <li><span class="right"></span>网站开发课程<span class="left"></span><p>这是什么菜单</p></li>
+    <li><span class="right"></span>联系我们<span class="left"></span><p>这是什么菜单</p></li>
+</ul>
+</body>
+</html>

@@ -1,0 +1,138 @@
+<html><head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+
+    .clearfix:before,.clearfix:after{
+    clear: both;
+    display: block;
+    overflow: visible;
+    content: "";
+    }
+    .clearfix{
+    zoom: 1;
+    }/*兼容所有浏览器*/
+    *{
+    margin: 0;
+    padding: 0;
+    }
+    body{
+    background-color: #f7f7f7;
+    }
+    ul{
+    list-style: none;
+    }
+
+    .topNav{
+    background-color: #000;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    font-size: 12px;
+    font-family: "Microsoft Yahei", Arial, SimSun;
+    }
+    .topNav ul{
+    float: left;
+    }
+    .topNav .new{
+    float: left;
+    padding: 0 5px;
+    background: #ff7b00;
+    border-radius: 3px;/*css3属性圆角*/
+    line-height: 22px;
+    margin-top: 6px;
+    }
+    .topNav .nav{
+    padding: 0 25px 0 10px;
+    float: left;
+    position: relative;
+
+    }
+
+    .topNav .nav span{
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: 5px solid #fff;
+    border-color: #fff transparent transparent transparent;
+    top: 15px;
+    right: 15px;
+    }
+    /*.topNav ul li a{*/
+    /*float: left;*/
+    /*text-decoration: none;*/
+    /*color: #fff;*/
+    /*}*/
+    .topNav ul li:hover{
+    background: #fff;
+    color: #000;
+    }
+    .topNav .nav:hover span{
+
+    }
+        .nav ul{
+            width: 106px;
+            padding: 10px;
+            background:white;
+            position: absolute;
+            left: 0;
+            top: 33px;
+        }
+        .nav ul li{
+            border-bottom: 1px solid #f7f7f7;
+            padding:1px 0 2px 0;
+            display: block;
+        }
+    .nav ul li a{
+
+        background:#e7e7e7 url("image/png") ;
+        text-decoration:none ;
+        text-align: center;
+        color: #878a99;
+
+    }
+
+    .nav ul li.one{
+        background-position:6px 4px ;
+
+    }
+    .nav ul li.two{
+        background-position:6px 4px ;
+
+    }
+    .nav ul li.three{
+        background-position:6px 4px ;
+
+    }
+    .nav ul li.four{
+        background-position:6px 4px ;
+
+    }
+    .nav ul li
+
+    </style>
+
+</head>
+<body>
+<div class="topNav">
+    <ul class="clearfix">
+        <li class="nav">首页</li>
+        <li class="nav current">快捷入口<span></span>
+          <ul>
+              <li class="one"><a href="">返利教程</a></li>
+              <li class="two"><a href="">商城反伦理</a></li>
+              <li class="three"><a href="">拍拍返利</a></li>
+              <li class="four"><a href="">兑换商城</a></li>
+
+
+          </ul>
+
+        </li>
+        <li class="nav">在线服务<span></span></li>
+        <li class="nav">收藏本站<span></span></li>
+    </ul>
+    <span class="new">[新手上路]三步拿返利</span>
+</div>
+</body>
+</html>

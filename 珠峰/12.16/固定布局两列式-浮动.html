@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        .layout{
+            width: 800px;
+        }
+        .header,.footer,.content{
+            border:1px dashed yellow;
+            background: paleturquoise;
+            margin: 20px 0;
+        }
+        .content{
+            overflow: hidden;
+        }
+        .sideBar{
+            width: 560px;
+            /*background: papayawhip;*/
+            float: left;
+            padding-left:10px ;
+        }
+        .pageContent{
+            width: 200px;
+            /*background: pink;*/
+            float: right;
+            padding-right: 10px;
+        }
+        .sideBar1,.sideBar2,.pageContent1,.pageContent2{
+            background: green;
+            border:1px dashed yellow;
+            margin: 20px 0;
+        }
+        .pageContent2{
+            height: 600px;
+        }
+    </style>
+</head>
+<body>
+<div class="layout">
+    <div class="header">
+        <h3>header</h3>
+    </div>
+    <div class="content">
+        <div class="sideBar">
+            <div class="sideBar1">
+                <h3>sideBar1</h3>
+            </div>
+            <div class="sideBar2">
+                <h3>sideBar2</h3>
+            </div>
+        </div>
+        <div class="pageContent">
+            <div class="pageContent1">
+                <h3>pageContent1</h3>
+            </div>
+            <div class="pageContent2">
+                <h3>pageContent2</h3>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <h3>header</h3>
+    </div>
+</div>
+</body>
+</html>

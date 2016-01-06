@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+
+
+        body {
+            padding: 0;
+            margin: 0;
+            padding-top: -10px;
+        }
+
+        .capital {
+            border: 1px solid black;
+            width: 1161px;
+            height: 665px;
+            margin: 0 auto;
+            position: relative;
+
+        }
+
+        .capital .top {
+            width: 1161px;
+            height: 140px;
+            background-color: palegreen;
+            background: url("作业-babyHouse_03_03.png") repeat;
+        }
+
+        .girl {
+            background: url("作业-babyHouse1_03.png") no-repeat;
+            width: 57px;
+            height: 56px;
+            float: left;
+            margin-top: 10px;
+
+        }
+
+        .banner {
+            background: url("作业-babyHouse1_06.png") no-repeat;
+            width: 252px;
+            height: 33px;
+            float: left;
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+
+        .both {
+            margin-left: 70px;
+            clear: both;
+        }
+
+        .ul li {
+            width: 80px;
+            height: 30px;
+            line-height: 30px;
+            background-color: #e5bf73;
+            display: inline-block;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .ul li:hover {
+            background-color: #eed5a3;
+            cursor: pointer;
+        }
+
+        .top {
+            position: relative;
+        }
+
+        .word {
+            position: absolute;
+            top: 75px;
+        }
+
+        .box {
+            width: 174px;
+            height: 101px;
+            position: absolute;
+            top: 50px;
+            right: 125px;
+            border: 1px solid #bdd6e8;
+        }
+
+        .boxleft {
+            background: url("未标题-3.png") no-repeat;
+            width: 88px;
+            height: 101px;
+        }
+
+        .boxright {
+            background: url("未标题-2.png") no-repeat;
+            width: 88px;
+            height: 101px;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
+        .left {
+            width: 748px;
+            height: 415px;
+            margin-left: 68px;
+        }
+
+        .lefttop {
+            width: 747px;
+            height: 220px;
+        }
+
+        .leftbot {
+            width: 747px;
+            height: 220px;
+        }
+
+        .border {
+            height: 30px;
+            border-bottom: 1px solid #deaf50;
+
+        }
+
+        .border h3 {
+            font-size: 18px;
+            line-height: 30px;
+        }
+
+        .flower {
+            float: right;
+            line-height: 30px;
+            margin-top: -43px;
+        }
+
+        .floatleft {
+            float: left;
+            margin-right: 10px;
+        }
+
+        .right {
+            width: 185px;
+            height: 425px;
+            float: right;
+            position: absolute;
+            right: 0;
+            top: 167px;
+            margin-right: 107px;
+            margin-top: 15px;
+        }
+
+        .floatright {
+            float: right;
+        }
+
+        .righttop {
+            width: 180px;
+            height: 90px;
+        }
+
+        .righttop .toptop {
+            background: url("未标题-1.png") no-repeat;
+            width: 180px;
+            height: 14px;
+        }
+
+        .righttop .topmid {
+            background: url("a-1.png") repeat-y center 0;
+            width: 180px;
+            height: 60px;
+            line-height: 35px;
+            text-align: center;
+
+        }
+
+        .righttop .topbot {
+            background: url("a-2.png") no-repeat;
+            width: 180px;
+            height: 11px;
+        }
+
+        .rightmid {
+            width: 180px;
+            height: 190px;
+            margin-top: 30px;
+        }
+
+        .rightmid .midtop {
+            background: url("未标题-1.png") no-repeat;
+            width: 180px;
+            height: 14px;
+        }
+
+        .rightmid .midmid {
+            background: url("a-1.png") repeat-y center 0;
+            width: 180px;
+            height: 162px;
+            text-align: center;
+        }
+
+        .rightmid .midmid h3 {
+            padding: 0;
+            margin: 0;
+        }
+
+        .rightmid .midmid li {
+            background: url("未标题-4.png") no-repeat;
+            list-style: none;
+            border-top: 1px solid white;
+            width: 160px;
+            height: 20px;
+            margin-left: -30px;
+        }
+
+        .rightmid .midmid li:hover {
+            background-color: white;
+            cursor: pointer;
+        }
+
+        .rightmid .midbot {
+            background: url("a-2.png") no-repeat;
+            width: 180px;
+            height: 11px;
+        }
+
+        .rightbot {
+            width: 180px;
+            height: 90px;
+            margin-top: 25px;
+        }
+
+        .rightbot .bottop {
+            background: url("未标题-1.png") no-repeat;
+            width: 180px;
+            height: 14px;
+        }
+
+        .rightbot .botmid {
+            background: url("a-1.png") repeat-y center 0;
+            width: 180px;
+            height: 60px;
+            line-height: 35px;
+            text-align: center;
+        }
+
+        .rightbot .botmid h1 {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .rightbot .botmid h1 a {
+            text-decoration: none;
+        }
+
+        .rightbot .botmid p {
+            width: 100px;
+            height: 30px;
+            margin: 0 auto;
+        }
+
+        .rightbot .last {
+            background: url("a-2.png") no-repeat;
+            width: 180px;
+            height: 11px;
+        }
+    </style>
+</head>
+<body>
+<div class="capital">
+    <div class="top">
+        <div class="both">
+            <div class="girl"></div>
+            <div class="banner"></div>
+        </div>
+        <div class="word">
+            <ul class="ul">
+                <li>网站首页</li>
+                <li>产品介绍</li>
+                <li>信息</li>
+                <li>畅销排行榜</li>
+            </ul>
+        </div>
+        <div class="box">
+            <div class="boxleft"></div>
+            <div class="boxright"></div>
+        </div>
+    </div>
+    <div class="bot">
+        <div class="left">
+            <div class="lefttop">
+                <div class="border">
+                    <h3>今日推荐</h3>
+                    <img src="未标题-3.jpg" class="flower"/>
+                </div>
+                <div style="padding-top: 20px" class="clear">
+                    <img src="1-4.jpg" class="floatleft"/>
+
+                    <p>尅米哇，更尅意的，啊呢吧！博库洛，色卡伊娃，哈勒罗哟！
+                        尅米哇，更尅意的，啊呢吧！博库洛，色卡伊娃，哈勒罗哟！
+                        尅米哇，更尅意的，啊呢吧！博库洛，色卡伊娃，哈勒罗哟！
+                        尅米哇，更尅意的，啊呢吧！博库洛，色卡伊娃，哈勒罗哟！</p></div>
+            </div>
+            <div class="leftbot">
+                <div class="border">
+                    <h3>最受欢迎</h3>
+                    <img src="未标题-3.jpg" class="flower"/>
+                </div>
+                <div style="padding-top: 20px;clear: both">
+                    <img src="未标题-2.jpg" class="floatright"/>
+
+                    <p>尅米哇，更尅意的，啊呢吧！博库洛，色卡伊娃，哈勒罗哟！
+                        尅米哇，更尅意的，啊呢吧！博库洛，色卡伊娃，哈勒罗哟！
+                        尅米哇，更尅意的，啊呢吧！博库洛，色卡伊娃，哈勒罗哟！
+                        尅米哇，更尅意的，啊呢吧！博库洛，色卡伊娃，哈勒罗哟！
+                    </p></div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="righttop">
+                <div class="toptop"></div>
+                <div class="topmid">
+                    <div><input type="text" style="width:160px;height: 20px"/></div>
+                    <div><input type="button" value="查询商品"/></div>
+                </div>
+                <div class="topbot"></div>
+            </div>
+            <div class="rightmid">
+                <div class="midtop"></div>
+                <div class="midmid">
+                    <h3>产品分类</h3>
+                    <ul>
+                        <li>0-1岁玩具</li>
+                        <li>0-1岁玩具</li>
+                        <li>0-1岁玩具</li>
+                        <li>0-1岁玩具</li>
+                        <li>0-1岁玩具</li>
+                        <li>0-1岁玩具</li>
+                    </ul>
+                </div>
+                <div class="midbot"></div>
+
+            </div>
+            <div class="rightbot">
+                <div class="bottop"></div>
+                <div class="botmid">
+                    <div><h1><a href="##">注意</a></h1></div>
+                    <p>hahhahha</p>
+                </div>
+                <div class="last"></div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
